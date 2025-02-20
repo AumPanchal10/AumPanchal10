@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **aumpanchal2004@gmail.com**
 
-- 📄 Know about my experiences [https://aum-resume-cyber.tiiny.site/](https://aum-resume-cyber.tiiny.site/)
+- 📄 Know about my experiences [https://aum-resume-cyber.tiiny.site/]()
 
 - ⚡ Fun fact **Its Like A Beautiful Sine Wave...**
 
