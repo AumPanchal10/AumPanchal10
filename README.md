@@ -104,7 +104,7 @@ VAPT · IAM · CSPM · OWASP Top 10 · SIEM · IDPS · GRC · Red Teaming · OSI
 ## Education
 
 **B.Tech in Computer Science and Engineering** — Vellore Institute of Technology (VIT-AP)  
-Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA: **8.7 / 10**
+Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA: **8.9 / 10**
 
 ## Certifications
 
