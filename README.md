@@ -134,7 +134,4 @@ _No public repository activity is available yet. This section refreshes automati
 - **LeetCode:** [aumpanchal](https://leetcode.com/u/aumpanchal/)
 
 ---
-
-<p align="center"><sub>Made with curiosity · Last generated 06 November 2026 · Edit <code>profile.json</code> to keep this profile current.</sub></p>
-
 <p align="center">⚡ I like to think of progress as a beautiful sine wave: consistent learning, iteration, and improvement.</p>
