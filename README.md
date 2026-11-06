@@ -1,12 +1,12 @@
 <!--
   The repository list under "Recently updated public repositories" is refreshed weekly by
-  .github/workflows/recent-repos.yml (do not remove the RECENT_REPOS marker comments there). The snake (output branch) and assets/metrics.svg / assets/leetcode.svg
-  are produced by .github/workflows/snake.yml and metrics.yml.
+  .github/workflows/recent-repos.yml (do not remove the RECENT_REPOS marker comments there). The snake (output branch) and assets/stats.svg / assets/leetcode.svg
+  are produced by .github/workflows/snake.yml and stats.yml.
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:84cc16,100:166534&height=210&section=header&text=Aum%20Panchal&fontSize=56&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Software%20Engineer%20%7C%20Full-Stack%20%7C%20Cloud%20%26%20Cybersecurity&descSize=18&descAlignY=58" width="100%" alt="Aum Panchal"/>
+<img src="assets/header.svg" width="100%" alt="Aum Panchal, Software Engineer"/>
 
 <a href="https://github.com/AumPanchal10">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=84CC16&center=true&vCenter=true&width=700&height=44&lines=Full-Stack+Developer;Cloud+%26+Application+Security;Market+Analyst+%7C+SGX+%26+CME+data;Spring+Boot+%2B+Angular+%2B+MySQL;Building+secure%2C+maintainable+software" alt="Typing animation: Full-Stack Developer, Cloud and Application Security, Market Analyst"/>
@@ -28,19 +28,18 @@
 
 <br>
 
-<sub>
-<a href="#about-me">About</a> ·
-<a href="#experience">Experience</a> ·
-<a href="#featured-projects">Projects</a> ·
-<a href="#technical-toolkit">Toolkit</a> ·
-<a href="#certifications-and-achievements">Certifications</a> ·
-<a href="#github-activity">Activity</a> ·
-<a href="#connect">Connect</a>
-</sub>
+<a href="#about-me"><img src="https://img.shields.io/badge/About-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="About"/></a>
+<a href="#experience"><img src="https://img.shields.io/badge/Experience-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Experience"/></a>
+<a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Projects"/></a>
+<a href="#technical-toolkit"><img src="https://img.shields.io/badge/Toolkit-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Toolkit"/></a>
+<a href="#certifications-and-achievements"><img src="https://img.shields.io/badge/Certifications-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Certifications"/></a>
+<a href="#github-activity"><img src="https://img.shields.io/badge/Activity-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Activity"/></a>
+<a href="#connect"><img src="https://img.shields.io/badge/Connect-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Connect"/></a>
 
 </div>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 ## About me
 
 Computer Science and Engineering graduate from VIT-AP (Class of 2026), interested in building useful, secure, and maintainable software. I enjoy working across the stack, from backend services and APIs to frontend experiences, and exploring how cloud and security practices make applications more dependable.
@@ -70,6 +69,7 @@ timeline
 </details>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 ## Experience
 
 <sub>Click a role to expand or collapse it.</sub>
@@ -114,7 +114,9 @@ timeline
 </details>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 <!-- Tip: add short preview GIFs to assets/previews/ and place <img src="assets/previews/name.gif" width="600"/> inside a project card below. -->
+
 ## Featured projects
 
 <sub>Tap a project to see the overview, stack and source.</sub>
@@ -130,14 +132,105 @@ Led the group project and contributed to the full-stack solution spanning packag
 
 **Source:** Training project, source not public.
 
-<sub>Simplified architecture:</sub>
+<sub>Technical views of the standard Angular, Spring Boot and JWT flows for this stack. Entity and component names are generic.</sub>
+
+**1. System architecture**
 
 ```mermaid
 flowchart LR
-    UI[Angular frontend] -->|REST| API[Spring Boot API]
-    API --> SEC[Spring Security and JWT]
-    API --> DB[(MySQL via JPA and Hibernate)]
-    API --> AI[Gemini]
+    subgraph Client["Angular SPA"]
+        CMP[Components and pages]
+        SVC[Services with HttpClient]
+        INT[HTTP interceptor adds Bearer token]
+        GRD[Route guards]
+    end
+    subgraph Server["Spring Boot 3.1.5 on Java 17"]
+        FLT[JWT auth filter]
+        CTL[REST controllers]
+        SRV[Service layer]
+        REP[Spring Data JPA repositories]
+        AIS[AI search service]
+    end
+    DB[(MySQL)]
+    GEM[Gemini API]
+    GRD -.-> CMP
+    CMP --> SVC --> INT -->|HTTPS REST JSON| FLT
+    FLT --> CTL --> SRV --> REP -->|Hibernate ORM| DB
+    SRV --> AIS -->|prompt| GEM
+```
+
+**2. Authentication with JWT**
+
+```mermaid
+sequenceDiagram
+    actor U as Traveller
+    participant A as Angular app
+    participant AC as Auth controller
+    participant AS as Auth service
+    participant D as MySQL
+    participant F as JWT filter
+    participant R as Resource controller
+    U->>A: Submit login form
+    A->>AC: POST credentials
+    AC->>AS: Authenticate
+    AS->>D: Load user and verify credentials
+    D-->>AS: User record
+    AS-->>AC: Signed JWT
+    AC-->>A: Token in response
+    Note over A: Interceptor attaches the token to later requests
+    A->>F: Request with Bearer token
+    F->>F: Validate signature and expiry
+    F->>R: Set security context and forward
+    R-->>A: Protected data
+```
+
+**3. Package discovery, booking and feedback**
+
+```mermaid
+sequenceDiagram
+    actor U as Traveller
+    participant A as Angular app
+    participant API as Spring Boot API
+    participant D as MySQL
+    U->>A: Browse and select a package
+    A->>API: GET packages
+    API->>D: Query packages
+    D-->>API: Package list
+    API-->>A: Package details
+    U->>A: Confirm booking
+    A->>API: POST booking with JWT
+    API->>API: Validate request and authorise user
+    API->>D: Persist booking
+    D-->>API: Booking saved
+    API-->>A: Confirmation
+    U->>A: Submit feedback
+    A->>API: POST feedback
+    API->>D: Persist feedback
+```
+
+**4. AI search with Gemini**
+
+```mermaid
+flowchart TD
+    Q[Traveller types a natural language query] --> UI[Angular search component]
+    UI -->|REST| CTL[Search controller]
+    CTL --> AIS[AI search service]
+    AIS -->|prompt with the query| GEM[Gemini API]
+    GEM -->|structured preferences| AIS
+    AIS --> REPO[JPA repository query]
+    REPO --> DB[(MySQL)]
+    DB --> RES[Matching packages]
+    RES --> UI
+```
+
+**5. Core data model**
+
+```mermaid
+erDiagram
+    USER ||--o{ BOOKING : makes
+    PACKAGE ||--o{ BOOKING : "is booked in"
+    USER ||--o{ FEEDBACK : writes
+    PACKAGE ||--o{ FEEDBACK : receives
 ```
 
 </details>
@@ -221,6 +314,7 @@ Chat application designed for real-time conversations across language preference
 </details>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 ## Technical toolkit
 
 <sub>Icons link to each tool's homepage.</sub>
@@ -265,12 +359,13 @@ Chat application designed for real-time conversations across language preference
 <a href="https://kubernetes.io" title="Kubernetes"><img src="https://skillicons.dev/icons?i=kubernetes" width="44" height="44" alt="Kubernetes"/></a>
 <a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git"/></a>
 <a href="https://github.com" title="GitHub"><img src="https://skillicons.dev/icons?i=github" width="44" height="44" alt="GitHub"/></a>
-<a href="https://www.atlassian.com/software/jira" title="Jira"><img src="https://skillicons.dev/icons?i=jira" width="44" height="44" alt="Jira"/></a>
+<a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052cc?style=flat-square" alt="Jira"/></a>
 
 **Cybersecurity**<br>
 <img src="https://img.shields.io/badge/VAPT-14532d?style=flat-square" alt="VAPT"/> <img src="https://img.shields.io/badge/IAM-14532d?style=flat-square" alt="IAM"/> <img src="https://img.shields.io/badge/CSPM-14532d?style=flat-square" alt="CSPM"/> <a href="https://owasp.org/www-project-top-ten/"><img src="https://img.shields.io/badge/OWASP%20Top%2010-14532d?style=flat-square" alt="OWASP Top 10"/></a> <img src="https://img.shields.io/badge/SIEM-14532d?style=flat-square" alt="SIEM"/> <img src="https://img.shields.io/badge/IDPS-14532d?style=flat-square" alt="IDPS"/> <img src="https://img.shields.io/badge/GRC-14532d?style=flat-square" alt="GRC"/> <img src="https://img.shields.io/badge/Red%20Teaming-14532d?style=flat-square" alt="Red Teaming"/> <img src="https://img.shields.io/badge/OSINT-14532d?style=flat-square" alt="OSINT"/> <a href="https://jwt.io"><img src="https://img.shields.io/badge/JWT-14532d?style=flat-square" alt="JWT"/></a> <a href="https://portswigger.net/burp"><img src="https://img.shields.io/badge/Burp%20Suite-14532d?style=flat-square" alt="Burp Suite"/></a> <a href="https://nmap.org"><img src="https://img.shields.io/badge/Nmap-14532d?style=flat-square" alt="Nmap"/></a> <a href="https://github.com/projectdiscovery/nuclei"><img src="https://img.shields.io/badge/Nuclei-14532d?style=flat-square" alt="Nuclei"/></a> <a href="https://www.metasploit.com"><img src="https://img.shields.io/badge/Metasploit-14532d?style=flat-square" alt="Metasploit"/></a> <a href="https://www.wireshark.org"><img src="https://img.shields.io/badge/Wireshark-14532d?style=flat-square" alt="Wireshark"/></a> <a href="https://www.kali.org"><img src="https://img.shields.io/badge/Kali%20Linux-14532d?style=flat-square" alt="Kali Linux"/></a> <a href="https://ghidra-sre.org"><img src="https://img.shields.io/badge/Ghidra-14532d?style=flat-square" alt="Ghidra"/></a> <a href="https://volatilityfoundation.org"><img src="https://img.shields.io/badge/Volatility-14532d?style=flat-square" alt="Volatility"/></a>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 ## Education
 
 **B.Tech in Computer Science and Engineering**, Vellore Institute of Technology (VIT-AP)<br>
@@ -302,6 +397,7 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
 </details>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 ## GitHub activity
 
 <p align="center">
@@ -312,14 +408,14 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
   </picture>
 </p>
 
-<details>
+<details open>
 <summary><b>📊 Stats overview</b> <sub>(refreshed weekly)</sub></summary>
 
-<p align="center"><img src="assets/metrics.svg" alt="GitHub metrics overview" width="100%"/></p>
+<p align="center"><img src="assets/stats.svg" alt="GitHub overview stats" width="100%"/></p>
 
 </details>
 
-<details>
+<details open>
 <summary><b>🧩 LeetCode</b> <sub>(200+ problems solved)</sub></summary>
 
 <p align="center"><a href="https://leetcode.com/u/aumpanchal/"><img src="assets/leetcode.svg" alt="LeetCode stats" width="100%"/></a></p>
@@ -329,14 +425,15 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
 **Recently updated public repositories**
 
 <!--RECENT_REPOS:START-->
-- [**CryptoWeather-Nexus**](https://github.com/AumPanchal10/CryptoWeather-Nexus) — 🌐 A modern multi-page dashboard combining real-time weather, cryptocurrency data, and WebSocket-powered alerts — built with Next.js & deployed publicly. · `TypeScript` · updated 2026-11-04
-- [**Cybersecurity-Projects**](https://github.com/AumPanchal10/Cybersecurity-Projects) — A centralized repository for all my cybersecurity projects, covering various aspects of offensive and defensive security, risk management, and threat detection. This repo contains tools, scripts, and research work aimed at enhancing cybersecurity knowledge and practical implementations. · `TypeScript` · updated 2026-11-04
-- [**PhishNet**](https://github.com/AumPanchal10/PhishNet) — Anti Phishing Detection Tool · `TypeScript` · ⭐ 1 · updated 2026-11-04
-- [**SentinelOps**](https://github.com/AumPanchal10/SentinelOps) — SentinelOPS is a Security Information and Event Management (SIEM) and Security Operations Center (SOC) monitoring platform designed to demonstrate real-world threat detection, log analysis, security monitoring, and incident response workflows within a controlled cybersecurity laboratory environment. · updated 2026-06-26
-- [**Portfolio**](https://github.com/AumPanchal10/Portfolio) — Welcome to my Portfolio! · `HTML` · updated 2025-09-07
+- [**PhishNet**](https://github.com/AumPanchal10/PhishNet)
+- [**CryptoWeather-Nexus**](https://github.com/AumPanchal10/CryptoWeather-Nexus)
+- [**Totalfit**](https://github.com/AumPanchal10/Totalfit)
+- [**LeakSense**](https://github.com/AumPanchal10/LeakSense)
+- [**IndiVerse**](https://github.com/AumPanchal10/IndiVerse)
 <!--RECENT_REPOS:END-->
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
 ## Connect
 
 - **Email:** [aumpanchal2004@gmail.com](mailto:aumpanchal2004@gmail.com)
