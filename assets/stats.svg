@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="800" height="130" role="img" aria-label="GitHub overview" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0.5" y="0.5" width="799" height="129" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="38" font-size="18" font-weight="700" fill="#84cc16">GitHub overview</text>
+  
+  <text x="28" y="84" font-size="14" fill="#8b949e">Not generated yet. Run the &#x27;Update stats cards&#x27; workflow from the Actions tab.</text>
+</svg>
