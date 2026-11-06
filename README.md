@@ -27,7 +27,7 @@
 
 Computer Science and Engineering graduate from VIT-AP (Class of 2026), interested in building useful, secure, and maintainable software. I enjoy working across the stack—from backend services and APIs to frontend experiences—and exploring how cloud and security practices make applications more dependable.
 
-- 🎓 **Education:** B.Tech in Computer Science and Engineering — Vellore Institute of Technology (VIT-AP) (September 2022 – May 2026); CGPA **8.7 / 10**.
+- 🎓 **Education:** B.Tech in Computer Science and Engineering — Vellore Institute of Technology (VIT-AP) (September 2022 – May 2026); CGPA **8.9 / 10**.
 - 💼 **Current role:** Full-Stack Development Trainee at **LTIMindtree** — Media & Entertainment domain, Paramount client account.
 - 🧭 **Project leadership:** Team Lead for SafarMate AI; independently developed Skybooker during LTIMindtree training.
 - 🔐 **Interests:** application security, IAM, VAPT, cloud security and full-stack engineering.
