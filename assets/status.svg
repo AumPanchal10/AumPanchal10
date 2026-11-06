@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="36" viewBox="0 0 430 36" role="img" aria-label="Status: full-stack training at LTIMindtree">
+  <style>
+    .t { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #3f6212; }
+    .b { stroke: #84cc16; }
+    @media (prefers-color-scheme: dark) { .t { fill: #bef264; } }
+  </style>
+  <rect class="b" x="0.5" y="0.5" width="429" height="35" rx="18" fill="none" opacity="0.6"/>
+  <circle cx="20" cy="18" r="5" fill="#84cc16"/>
+  <circle cx="20" cy="18" r="5" fill="none" stroke="#84cc16" stroke-width="2">
+    <animate attributeName="r" values="5;14" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text class="t" x="40" y="23">Currently building full-stack apps @ LTIMindtree</text>
+</svg>
