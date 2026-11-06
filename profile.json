@@ -1,0 +1,142 @@
+{
+  "profile": {
+    "name": "Aum Panchal",
+    "username": "AumPanchal10",
+    "headline": "Software Engineer | Full-Stack Development | Cloud & Cybersecurity",
+    "location": "India",
+    "email": "aumpanchal2004@gmail.com",
+    "portfolio": "https://aumpanchal.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/aum-panchal-9109a3190/",
+    "leetcode": "https://leetcode.com/u/aumpanchal/",
+    "github": "https://github.com/AumPanchal10",
+    "summary": "Computer Science and Engineering graduate from VIT-AP (Class of 2026), interested in building useful, secure, and maintainable software. I enjoy working across the stack—from backend services and APIs to frontend experiences—and exploring how cloud and security practices make applications more dependable.",
+    "current_focus": [
+      "Building full-stack applications with Java, Spring Boot, Angular and TypeScript",
+      "Designing REST APIs, authentication flows and relational data models",
+      "Exploring cloud security, IAM, VAPT and secure application design"
+    ],
+    "fun_fact": "I like to think of progress as a beautiful sine wave: consistent learning, iteration, and improvement."
+  },
+  "education": {
+    "degree": "B.Tech in Computer Science and Engineering",
+    "institution": "Vellore Institute of Technology (VIT-AP)",
+    "period": "September 2022 – May 2026",
+    "location": "Amaravati, Andhra Pradesh",
+    "cgpa": "8.7 / 10"
+  },
+  "experience": [
+    {
+      "role": "Full-Stack Development Trainee",
+      "company": "LTIMindtree",
+      "period": "2026 – Present",
+      "context": "Media & Entertainment Domain · Paramount client account",
+      "highlights": [
+        "Undertook hands-on full-stack training in Java, Spring Boot, Spring Security, REST APIs, Angular, TypeScript and MySQL.",
+        "Developed backend modules using Spring Data JPA and Hibernate, including JWT-based authentication and RESTful services.",
+        "Integrated Angular frontend components with Spring Boot APIs and MySQL-backed application workflows.",
+        "Led the SafarMate Gladiator group project and independently developed Skybooker through incremental delivery milestones."
+      ],
+      "tags": ["Java", "Spring Boot", "Spring Security", "Angular", "TypeScript", "MySQL", "JWT"]
+    },
+    {
+      "role": "Market Analyst Intern",
+      "company": "Axxela Research and Analytics Pvt. Ltd.",
+      "period": "January 2026 – Present",
+      "context": "Mumbai, India",
+      "highlights": [
+        "Analyzed SGX and CME datasets to identify market trends, volatility patterns and spread behaviour.",
+        "Applied analytical modelling to assess exposure constraints and support trading decisions."
+      ],
+      "tags": ["Market Research", "Data Analysis", "SGX", "CME"]
+    },
+    {
+      "role": "Cloud Security Analyst",
+      "company": "Suronex CloudSafe Pvt. Ltd.",
+      "period": "April 2025 – September 2025",
+      "context": "Mumbai, India",
+      "highlights": [
+        "Executed VAPT using Nmap, Nuclei and custom scripts; identified 20+ critical misconfigurations and exploitable services.",
+        "Reviewed IAM, access controls and encryption; applied CSPM techniques to reduce excessive permissions by 30%.",
+        "Supported compliance readiness against ISO 27001, NIST, PCI-DSS, GDPR, SEBI and RBI requirements."
+      ],
+      "tags": ["VAPT", "CSPM", "IAM", "Nmap", "Nuclei"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SafarMate AI",
+      "type": "Team project · Team Lead · LTIMindtree Gladiator",
+      "description": "AI-powered travel booking platform. Led the group project and contributed to the full-stack solution spanning package discovery, bookings, feedback and authentication.",
+      "stack": ["Angular", "Java 17", "Spring Boot 3.1.5", "Spring Security", "JWT", "Spring Data JPA", "Hibernate", "MySQL", "Gemini"],
+      "url": "",
+      "visibility_note": "Group/training project — add a public repository URL if one becomes available."
+    },
+    {
+      "name": "Skybooker",
+      "type": "Individual project · LTIMindtree training",
+      "description": "AI-assisted flight booking application built independently, covering flight search, seat selection, bookings, trip management and fare-alert workflows, with chat/itinerary assistance and admin controls.",
+      "stack": ["React", "TypeScript", "Node.js", "Express", "Tailwind CSS", "Gemini API", "JWT"],
+      "url": "",
+      "visibility_note": "Individual training project — add the public repository URL if/when you publish it."
+    },
+    {
+      "name": "PhishNet",
+      "type": "Cybersecurity · Machine Learning",
+      "description": "Anti-phishing URL analyzer combining heuristic checks, URL feature extraction, classification concepts and scan history to help inspect suspicious links.",
+      "stack": ["React", "Vite", "TypeScript", "Tailwind CSS", "Machine Learning"],
+      "url": "https://github.com/AumPanchal10/PhishNet"
+    },
+    {
+      "name": "CryptoWeather Nexus",
+      "type": "Real-time data · Analytics dashboard",
+      "description": "Real-time intelligence dashboard combining cryptocurrency market feeds, global weather information, news sentiment and cross-domain analytics.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "WebSockets", "Recharts", "Docker"],
+      "url": "https://github.com/AumPanchal10/CryptoWeather-Nexus"
+    },
+    {
+      "name": "TotalFit",
+      "type": "AI · Athlete wellness",
+      "description": "Athlete wellness platform concept connecting fitness activity data with health insights, recovery indicators and injury-risk awareness.",
+      "stack": ["Next.js", "TypeScript", "Supabase", "Google Fit", "AI insights"],
+      "url": "https://github.com/AumPanchal10/Totalfit"
+    },
+    {
+      "name": "LeakSense",
+      "type": "IoT · Environmental monitoring",
+      "description": "IoT-based air-quality monitoring concept focused on gas and temperature detection, live readings and connected alerts.",
+      "stack": ["IoT", "Gas sensors", "AQI", "Firebase", "ThingSpeak", "Flutter"],
+      "url": "https://github.com/AumPanchal10/LeakSense"
+    },
+    {
+      "name": "IndiVerse",
+      "type": "Multilingual · Real-time communication",
+      "description": "Multilingual chat application designed to support real-time conversations across language preferences, with server-side message translation.",
+      "stack": ["Python", "PyQt5", "Real-time messaging", "Translation"],
+      "url": "https://github.com/AumPanchal10/IndiVerse"
+    }
+  ],
+  "skills": {
+    "Languages": ["Java", "Python", "JavaScript", "TypeScript", "SQL", "Bash", "HTML5", "CSS3"],
+    "Frontend": ["Angular", "React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap"],
+    "Backend & APIs": ["Spring Boot", "Spring Security", "Spring Data JPA", "Hibernate", "Node.js", "Express.js", "FastAPI", "Django", "REST APIs"],
+    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Firebase", "Supabase"],
+    "Cloud & DevOps": ["AWS", "Google Cloud", "Azure", "Docker", "Kubernetes", "Git", "GitHub", "Jira"],
+    "Cybersecurity": ["VAPT", "IAM", "CSPM", "OWASP Top 10", "SIEM", "IDPS", "GRC", "Red Teaming", "OSINT", "JWT", "Burp Suite", "Nmap", "Nuclei", "Metasploit", "Wireshark", "Kali Linux", "Ghidra", "Volatility"]
+  },
+  "certifications": [
+    "AWS Certified Cloud Practitioner — Amazon Web Services (June 2025)",
+    "Oracle Cloud Infrastructure Foundations Associate — Oracle University (March 2025)",
+    "Google Generative AI — Google Cloud (April 2025)",
+    "TATA Cybersecurity Analyst",
+    "Penetration Testing — Udemy"
+  ],
+  "achievements": [
+    "Solved 200+ data structures and algorithms problems on LeetCode.",
+    "Placed 6th in a national CTF and bug bounty competition among 100+ teams, leading a 3-member team."
+  ],
+  "recent_repositories": {
+    "enabled": true,
+    "limit": 5,
+    "exclude": ["AumPanchal10"]
+  }
+}
