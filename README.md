@@ -425,11 +425,11 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
 **Recently updated public repositories**
 
 <!--RECENT_REPOS:START-->
-- [**PhishNet**](https://github.com/AumPanchal10/PhishNet)
-- [**CryptoWeather-Nexus**](https://github.com/AumPanchal10/CryptoWeather-Nexus)
-- [**Totalfit**](https://github.com/AumPanchal10/Totalfit)
-- [**LeakSense**](https://github.com/AumPanchal10/LeakSense)
-- [**IndiVerse**](https://github.com/AumPanchal10/IndiVerse)
+- [**CryptoWeather-Nexus**](https://github.com/AumPanchal10/CryptoWeather-Nexus) — 🌐 A modern multi-page dashboard combining real-time weather, cryptocurrency data, and WebSocket-powered alerts — built with Next.js & deployed publicly. · `TypeScript` · updated 2026-11-04
+- [**Cybersecurity-Projects**](https://github.com/AumPanchal10/Cybersecurity-Projects) — A centralized repository for all my cybersecurity projects, covering various aspects of offensive and defensive security, risk management, and threat detection. This repo contains tools, scripts, and research work aimed at enhancing cybersecurity knowledge and practical implementations. · `TypeScript` · updated 2026-11-04
+- [**PhishNet**](https://github.com/AumPanchal10/PhishNet) — Anti Phishing Detection Tool · `TypeScript` · ⭐ 1 · updated 2026-11-04
+- [**SentinelOps**](https://github.com/AumPanchal10/SentinelOps) — SentinelOPS is a Security Information and Event Management (SIEM) and Security Operations Center (SOC) monitoring platform designed to demonstrate real-world threat detection, log analysis, security monitoring, and incident response workflows within a controlled cybersecurity laboratory environment. · updated 2026-06-26
+- [**Portfolio**](https://github.com/AumPanchal10/Portfolio) — Welcome to my Portfolio! · `HTML` · updated 2025-09-07
 <!--RECENT_REPOS:END-->
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
