@@ -6,9 +6,8 @@
 <!-- PROFILE:START -->
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Aum Panchal — Software Engineer · Full-Stack · Cloud & Application Security"/>
-
-<img src="assets/status.svg" width="430" height="36" alt="Software Engineer @ LTM · Full-Stack"/>
+<p><img src="assets/header.svg" width="100%" alt="Aum Panchal — Software Engineer · Full-Stack · Cloud & Application Security"/></p>
+<p><img src="assets/status.svg" width="240" height="38" alt="Software Engineer @ LTM"/></p>
 
 [Portfolio](https://aumpanchal.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/aum-panchal-9109a3190/) · [LeetCode](https://leetcode.com/u/aumpanchal/) · [Email](mailto:aumpanchal2004@gmail.com)
 

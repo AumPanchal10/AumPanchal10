@@ -63,13 +63,12 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append('<div align="center">')
         lines.append("")
         lines.append(
-            f'<img src="assets/header.svg" width="100%" alt="{personal["name"]} — {personal["headline"]}"/>'
+            f'<p><img src="assets/header.svg" width="100%" alt="{personal["name"]} — {personal["headline"]}"/></p>'
         )
-        lines.append("")
         if personal.get("availability", {}).get("show_indicator"):
             status_text = personal["availability"].get("status_text", "Available")
-            lines.append(f'<img src="assets/status.svg" width="430" height="36" alt="{status_text}"/>')
-            lines.append("")
+            lines.append(f'<p><img src="assets/status.svg" width="240" height="38" alt="{status_text}"/></p>')
+        lines.append("")
 
         nav_links: list[str] = []
         if links.get("portfolio"):
