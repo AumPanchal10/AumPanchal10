@@ -6,7 +6,7 @@
   "location": "India",
   "availability": {
     "show_indicator": true,
-    "status_text": "Currently building full-stack apps @ LTIMindtree"
+    "status_text": "Software Engineer @ LTM · Full-Stack"
   },
   "introduction": "Computer Science and Engineering graduate from VIT-AP (Class of 2026) focused on building dependable, secure, and maintainable software. I work across backend APIs, relational data modeling, and modern frontend interfaces, applying cloud security and IAM practices to make systems resilient by design.",
   "terminal_intro": {
@@ -28,9 +28,9 @@
       "summary": "Configuration-driven profile generator, local SVG analytics, and validated GitHub Actions pipelines."
     },
     {
-      "name": "Full-Stack Engineering Modules @ LTIMindtree",
+      "name": "Full-Stack Engineering @ LTM",
       "status": "In Progress",
-      "summary": "Developing enterprise Spring Boot + Angular workflows during full-stack training."
+      "summary": "Building enterprise Java, Spring Boot, and Angular applications as a full-time Software Engineer."
     },
     {
       "name": "Cloud Security & IAM Playbooks",

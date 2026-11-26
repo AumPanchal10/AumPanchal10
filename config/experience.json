@@ -1,48 +1,61 @@
 {
   "timeline": [
     {
-      "id": "ltimindtree-trainee",
+      "id": "ltm-software-engineer",
       "type": "professional",
-      "role": "Full-Stack Development Trainee",
-      "organization": "LTIMindtree",
-      "location": "Media & Entertainment · Paramount client account",
-      "start_date": "2026",
+      "role": "Software Engineer",
+      "organization": "LTM",
+      "location": "Navi Mumbai, Maharashtra, India · Hybrid",
+      "start_date": "Oct 2026",
       "end_date": "Present",
       "highlights": [
-        "Completed hands-on full-stack training across Java, Spring Boot, Spring Security, REST APIs, Angular, TypeScript, and MySQL.",
-        "Built backend modules with Spring Data JPA, Hibernate, and JWT authentication, integrated with Angular frontend workflows.",
-        "Led the SafarMate AI Gladiator group project as Team Lead and independently built Skybooker through incremental delivery milestones."
+        "Full-time Software Engineer building full-stack enterprise applications at LTM."
       ],
-      "technologies": ["Java", "Spring Boot", "Spring Security", "Angular", "TypeScript", "MySQL", "JWT"]
+      "technologies": ["Java", "Spring Boot", "Angular", "TypeScript", "MySQL", "REST APIs"]
+    },
+    {
+      "id": "ltm-graduate-trainee",
+      "type": "apprenticeship",
+      "role": "Graduate Engineering Trainee",
+      "organization": "LTM",
+      "location": "Bhubaneswar, Odisha, India · On-site",
+      "start_date": "Jul 2026",
+      "end_date": "Oct 2026",
+      "highlights": [
+        "Gained hands-on exposure to Core Java, Advanced Java, JDBC, SQL, MySQL, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Spring Security, RESTful APIs, and Angular.",
+        "Explored frontend development concepts including TypeScript, components, services, routing, data binding, dependency injection, and API integration alongside backend MVC architecture, CRUD operations, database connectivity, JWT-based authentication, and authorization.",
+        "Led the SafarMate AI Gladiator group project as Team Lead and independently developed Skybooker."
+      ],
+      "technologies": ["Core Java", "Spring Boot", "Spring MVC", "Spring Data JPA", "Hibernate", "Spring Security", "Angular", "TypeScript", "MySQL", "JWT"]
     },
     {
       "id": "axxela-intern",
       "type": "internship",
       "role": "Market Analyst Intern",
-      "organization": "Axxela Research and Analytics Pvt. Ltd.",
-      "location": "Mumbai, India",
-      "start_date": "2026-01",
-      "end_date": "Present",
+      "organization": "Axxela",
+      "location": "Mumbai, Maharashtra, India · On-site",
+      "start_date": "Jan 2026",
+      "end_date": "Jul 2026",
       "highlights": [
-        "Analyzed SGX and CME derivatives datasets to identify market trends, volatility patterns, and spread behavior.",
-        "Applied analytical modeling to evaluate exposure constraints and support trading decisions."
+        "Involved in the execution of trades in commodities and fixed income in International Markets.",
+        "Worked on growing the Asian commodities market covering products such as Palm Oil, Rubber, and Iron Ore, alongside SGX and CME market data analysis."
       ],
-      "technologies": ["Market Research", "Data Analysis", "SGX", "CME"]
+      "technologies": ["Commodities", "Fixed Income", "International Markets", "SGX", "CME"]
     },
     {
       "id": "suronex-analyst",
       "type": "internship",
       "role": "Cloud Security Analyst",
-      "organization": "Suronex CloudSafe Pvt. Ltd.",
-      "location": "Mumbai, India",
-      "start_date": "2025-04",
-      "end_date": "2025-09",
+      "organization": "Suronex",
+      "location": "Remote",
+      "start_date": "Apr 2025",
+      "end_date": "Sep 2025",
       "highlights": [
-        "Executed VAPT assessments using Nmap, Nuclei, and custom scripts, identifying 20+ critical misconfigurations and exploitable services.",
-        "Reviewed IAM policies, access controls, and encryption configurations, applying CSPM practices to reduce excessive permissions by 30%.",
-        "Supported compliance readiness across ISO 27001, NIST, PCI-DSS, GDPR, SEBI, and RBI frameworks."
+        "Performed vulnerability assessments and penetration testing (VAPT) using Nmap, Nuclei, and custom automation workflows to detect misconfigurations and security loopholes.",
+        "Contributed to Governance, Risk, and Compliance (GRC) by assisting in control mapping, risk assessments, and compliance documentation aligned with industry frameworks (ISO 27001, NIST, CIS).",
+        "Designed and documented standardized workflows for scanning and reporting, improving efficiency and accuracy of security processes."
       ],
-      "technologies": ["VAPT", "CSPM", "IAM", "Nmap", "Nuclei"]
+      "technologies": ["VAPT", "GRC", "Nmap", "Nuclei", "ISO 27001", "NIST", "CIS"]
     },
     {
       "id": "vit-ap-btech",
@@ -50,8 +63,8 @@
       "role": "B.Tech in Computer Science and Engineering",
       "organization": "Vellore Institute of Technology (VIT-AP)",
       "location": "Amaravati, Andhra Pradesh",
-      "start_date": "2022-09",
-      "end_date": "2026-05",
+      "start_date": "Sep 2022",
+      "end_date": "May 2026",
       "highlights": [
         "Graduated with CGPA 8.9 / 10 in Computer Science and Engineering.",
         "Completed core coursework in Data Structures, Algorithms, Operating Systems, Databases, Computer Networks, and Cybersecurity."

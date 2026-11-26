@@ -16,9 +16,9 @@
       "title": "Professional & Training Experience",
       "description": "Technologies and security practices applied in verified internships and training delivery.",
       "groups": [
-        { "label": "Full-Stack Delivery", "items": ["Spring Data JPA", "Hibernate", "JWT", "TypeScript", "Angular", "MySQL"] },
-        { "label": "Cloud & App Security", "items": ["VAPT", "CSPM", "IAM", "Nmap", "Nuclei", "OWASP Top 10"] },
-        { "label": "Data & Analytics", "items": ["SGX & CME Market Analysis", "Exposure Modeling"] }
+        { "label": "Full-Stack Delivery", "items": ["Core Java", "JDBC", "Spring Boot", "Spring MVC", "Spring Data JPA", "Hibernate", "Spring Security", "JWT", "Angular", "TypeScript", "MySQL"] },
+        { "label": "Cloud & App Security", "items": ["VAPT", "GRC", "CSPM", "IAM", "Nmap", "Nuclei", "ISO 27001", "NIST", "CIS", "OWASP Top 10"] },
+        { "label": "Data & Markets", "items": ["Commodities & Fixed Income Execution", "SGX & CME Market Analysis"] }
       ]
     },
     {

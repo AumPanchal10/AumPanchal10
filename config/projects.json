@@ -4,7 +4,7 @@
       "id": "skybooker",
       "name": "Skybooker",
       "category": "Individual Full-Stack Project",
-      "one_liner": "AI-assisted flight search, seat selection, and itinerary management platform built independently during LTIMindtree training.",
+      "one_liner": "AI-assisted flight search, seat selection, and itinerary management platform built independently during LTM training.",
       "problem": "Manual flight comparison and multi-leg trip tracking often fragment seat selection, fare alerts, and itinerary updates across disconnected tools.",
       "contribution": "Independently designed and built end-to-end across frontend UI, REST APIs, JWT authentication, booking workflows, and admin management.",
       "architecture": "React + TypeScript SPA communicating with an Express/Node.js REST API, JWT role-based guards, and Gemini API itinerary assistant.",
@@ -33,7 +33,7 @@
       "category": "Team-Based Full-Stack Project · Team Lead",
       "one_liner": "AI-powered travel agency platform supporting natural-language package discovery, bookings, and JWT-secured user flows.",
       "problem": "Travellers struggle to map open-ended trip preferences to structured tour packages while agencies need reliable booking and feedback tracking.",
-      "contribution": "Led the LTIMindtree Gladiator team; architected system flows, contributed to Spring Boot REST controllers, JWT security filters, and Angular integration.",
+      "contribution": "Led the LTM Gladiator team; architected system flows, contributed to Spring Boot REST controllers, JWT security filters, and Angular integration.",
       "architecture": "Angular SPA with HTTP Bearer interceptor talking to Spring Boot 3.1.5 (Java 17) services, Hibernate/JPA repositories, MySQL, and Gemini API.",
       "features": [
         "Natural-language package discovery powered by Gemini structured preference extraction",
@@ -45,7 +45,7 @@
       "preview_image": "assets/projects/safarmate/preview.svg",
       "preview_caption": "System Architecture & JWT Sequence Preview (conceptual diagram)",
       "repo_url": null,
-      "source_note": "LTIMindtree Gladiator training project — source not public",
+      "source_note": "LTM Gladiator training project — source not public",
       "live_url": null,
       "status": "Completed",
       "health": {

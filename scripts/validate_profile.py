@@ -24,7 +24,7 @@ REQUIRED_CONFIGS = [
 ]
 
 ALLOWED_PROJECT_STATUSES = {"Planning", "In Progress", "Completed", "On Hold"}
-ALLOWED_EXP_TYPES = {"professional", "internship", "education", "project"}
+ALLOWED_EXP_TYPES = {"professional", "apprenticeship", "internship", "education", "project"}
 HEX_COLOR_RE = re.compile(r"^#[0-9A-Fa-f]{6}$")
 
 

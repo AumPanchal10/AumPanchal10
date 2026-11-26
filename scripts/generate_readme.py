@@ -138,7 +138,8 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append("## Experience and Timeline")
         lines.append("")
         type_labels = {
-            "professional": "Professional",
+            "professional": "Full-time",
+            "apprenticeship": "Apprenticeship",
             "internship": "Internship",
             "education": "Academic",
             "project": "Project",

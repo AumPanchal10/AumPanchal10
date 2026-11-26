@@ -8,7 +8,7 @@
 
 <img src="assets/header.svg" width="100%" alt="Aum Panchal, Software Engineer · Full-Stack · Cloud & Application Security"/>
 
-<img src="assets/status.svg" width="430" height="36" alt="Currently building full-stack apps @ LTIMindtree"/>
+<img src="assets/status.svg" width="430" height="36" alt="Software Engineer @ LTM · Full-Stack"/>
 
 **Software Engineer · Full-Stack · Cloud & Application Security**
 
@@ -51,39 +51,48 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 ## Experience and Timeline
 
 <details open>
-<summary><b>Full-Stack Development Trainee</b> · LTIMindtree <sub><i>2026 – Present · Professional · Media & Entertainment · Paramount client account</i></sub></summary>
+<summary><b>Software Engineer</b> · LTM <sub><i>Oct 2026 – Present · Full-time · Navi Mumbai, Maharashtra, India · Hybrid</i></sub></summary>
 
-- Completed hands-on full-stack training across Java, Spring Boot, Spring Security, REST APIs, Angular, TypeScript, and MySQL.
-- Built backend modules with Spring Data JPA, Hibernate, and JWT authentication, integrated with Angular frontend workflows.
-- Led the SafarMate AI Gladiator group project as Team Lead and independently built Skybooker through incremental delivery milestones.
+- Full-time Software Engineer building full-stack enterprise applications at LTM.
 
-<img src="https://img.shields.io/badge/Java-3f6212?style=flat-square" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-3f6212?style=flat-square" alt="Spring Boot"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/>
+<img src="https://img.shields.io/badge/Java-3f6212?style=flat-square" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-3f6212?style=flat-square" alt="Spring Boot"/> <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/REST%20APIs-3f6212?style=flat-square" alt="REST APIs"/>
 
 </details>
 
 <details>
-<summary><b>Market Analyst Intern</b> · Axxela Research and Analytics Pvt. Ltd. <sub><i>2026-01 – Present · Internship · Mumbai, India</i></sub></summary>
+<summary><b>Graduate Engineering Trainee</b> · LTM <sub><i>Jul 2026 – Oct 2026 · Apprenticeship · Bhubaneswar, Odisha, India · On-site</i></sub></summary>
 
-- Analyzed SGX and CME derivatives datasets to identify market trends, volatility patterns, and spread behavior.
-- Applied analytical modeling to evaluate exposure constraints and support trading decisions.
+- Gained hands-on exposure to Core Java, Advanced Java, JDBC, SQL, MySQL, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Spring Security, RESTful APIs, and Angular.
+- Explored frontend development concepts including TypeScript, components, services, routing, data binding, dependency injection, and API integration alongside backend MVC architecture, CRUD operations, database connectivity, JWT-based authentication, and authorization.
+- Led the SafarMate AI Gladiator group project as Team Lead and independently developed Skybooker.
 
-<img src="https://img.shields.io/badge/Market%20Research-3f6212?style=flat-square" alt="Market Research"/> <img src="https://img.shields.io/badge/Data%20Analysis-3f6212?style=flat-square" alt="Data Analysis"/> <img src="https://img.shields.io/badge/SGX-3f6212?style=flat-square" alt="SGX"/> <img src="https://img.shields.io/badge/CME-3f6212?style=flat-square" alt="CME"/>
-
-</details>
-
-<details>
-<summary><b>Cloud Security Analyst</b> · Suronex CloudSafe Pvt. Ltd. <sub><i>2025-04 – 2025-09 · Internship · Mumbai, India</i></sub></summary>
-
-- Executed VAPT assessments using Nmap, Nuclei, and custom scripts, identifying 20+ critical misconfigurations and exploitable services.
-- Reviewed IAM policies, access controls, and encryption configurations, applying CSPM practices to reduce excessive permissions by 30%.
-- Supported compliance readiness across ISO 27001, NIST, PCI-DSS, GDPR, SEBI, and RBI frameworks.
-
-<img src="https://img.shields.io/badge/VAPT-3f6212?style=flat-square" alt="VAPT"/> <img src="https://img.shields.io/badge/CSPM-3f6212?style=flat-square" alt="CSPM"/> <img src="https://img.shields.io/badge/IAM-3f6212?style=flat-square" alt="IAM"/> <img src="https://img.shields.io/badge/Nmap-3f6212?style=flat-square" alt="Nmap"/> <img src="https://img.shields.io/badge/Nuclei-3f6212?style=flat-square" alt="Nuclei"/>
+<img src="https://img.shields.io/badge/Core%20Java-3f6212?style=flat-square" alt="Core Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-3f6212?style=flat-square" alt="Spring Boot"/> <img src="https://img.shields.io/badge/Spring%20MVC-3f6212?style=flat-square" alt="Spring MVC"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3f6212?style=flat-square" alt="Spring Data JPA"/> <img src="https://img.shields.io/badge/Hibernate-3f6212?style=flat-square" alt="Hibernate"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/>
 
 </details>
 
 <details>
-<summary><b>B.Tech in Computer Science and Engineering</b> · Vellore Institute of Technology (VIT-AP) <sub><i>2022-09 – 2026-05 · Academic · Amaravati, Andhra Pradesh</i></sub></summary>
+<summary><b>Market Analyst Intern</b> · Axxela <sub><i>Jan 2026 – Jul 2026 · Internship · Mumbai, Maharashtra, India · On-site</i></sub></summary>
+
+- Involved in the execution of trades in commodities and fixed income in International Markets.
+- Worked on growing the Asian commodities market covering products such as Palm Oil, Rubber, and Iron Ore, alongside SGX and CME market data analysis.
+
+<img src="https://img.shields.io/badge/Commodities-3f6212?style=flat-square" alt="Commodities"/> <img src="https://img.shields.io/badge/Fixed%20Income-3f6212?style=flat-square" alt="Fixed Income"/> <img src="https://img.shields.io/badge/International%20Markets-3f6212?style=flat-square" alt="International Markets"/> <img src="https://img.shields.io/badge/SGX-3f6212?style=flat-square" alt="SGX"/> <img src="https://img.shields.io/badge/CME-3f6212?style=flat-square" alt="CME"/>
+
+</details>
+
+<details>
+<summary><b>Cloud Security Analyst</b> · Suronex <sub><i>Apr 2025 – Sep 2025 · Internship · Remote</i></sub></summary>
+
+- Performed vulnerability assessments and penetration testing (VAPT) using Nmap, Nuclei, and custom automation workflows to detect misconfigurations and security loopholes.
+- Contributed to Governance, Risk, and Compliance (GRC) by assisting in control mapping, risk assessments, and compliance documentation aligned with industry frameworks (ISO 27001, NIST, CIS).
+- Designed and documented standardized workflows for scanning and reporting, improving efficiency and accuracy of security processes.
+
+<img src="https://img.shields.io/badge/VAPT-3f6212?style=flat-square" alt="VAPT"/> <img src="https://img.shields.io/badge/GRC-3f6212?style=flat-square" alt="GRC"/> <img src="https://img.shields.io/badge/Nmap-3f6212?style=flat-square" alt="Nmap"/> <img src="https://img.shields.io/badge/Nuclei-3f6212?style=flat-square" alt="Nuclei"/> <img src="https://img.shields.io/badge/ISO%2027001-3f6212?style=flat-square" alt="ISO 27001"/> <img src="https://img.shields.io/badge/NIST-3f6212?style=flat-square" alt="NIST"/> <img src="https://img.shields.io/badge/CIS-3f6212?style=flat-square" alt="CIS"/>
+
+</details>
+
+<details>
+<summary><b>B.Tech in Computer Science and Engineering</b> · Vellore Institute of Technology (VIT-AP) <sub><i>Sep 2022 – May 2026 · Academic · Amaravati, Andhra Pradesh</i></sub></summary>
 
 - Graduated with CGPA 8.9 / 10 in Computer Science and Engineering.
 - Completed core coursework in Data Structures, Algorithms, Operating Systems, Databases, Computer Networks, and Cybersecurity.
@@ -101,7 +110,7 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 <details open>
 <summary><b>Skybooker</b> · Individual Full-Stack Project <sub><i>Status: Completed</i></sub></summary>
 
-> AI-assisted flight search, seat selection, and itinerary management platform built independently during LTIMindtree training.
+> AI-assisted flight search, seat selection, and itinerary management platform built independently during LTM training.
 
 - **Problem:** Manual flight comparison and multi-leg trip tracking often fragment seat selection, fare alerts, and itinerary updates across disconnected tools.
 - **Individual Contribution:** Independently designed and built end-to-end across frontend UI, REST APIs, JWT authentication, booking workflows, and admin management.
@@ -128,7 +137,7 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 > AI-powered travel agency platform supporting natural-language package discovery, bookings, and JWT-secured user flows.
 
 - **Problem:** Travellers struggle to map open-ended trip preferences to structured tour packages while agencies need reliable booking and feedback tracking.
-- **Individual Contribution:** Led the LTIMindtree Gladiator team; architected system flows, contributed to Spring Boot REST controllers, JWT security filters, and Angular integration.
+- **Individual Contribution:** Led the LTM Gladiator team; architected system flows, contributed to Spring Boot REST controllers, JWT security filters, and Angular integration.
 - **Architecture:** Angular SPA with HTTP Bearer interceptor talking to Spring Boot 3.1.5 (Java 17) services, Hibernate/JPA repositories, MySQL, and Gemini API.
 
 **Key Features**
@@ -142,7 +151,7 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/Java%2017-3f6212?style=flat-square" alt="Java 17"/> <img src="https://img.shields.io/badge/Spring%20Boot%203.1.5-3f6212?style=flat-square" alt="Spring Boot 3.1.5"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3f6212?style=flat-square" alt="Spring Data JPA"/> <img src="https://img.shields.io/badge/Hibernate-3f6212?style=flat-square" alt="Hibernate"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/Gemini-3f6212?style=flat-square" alt="Gemini"/>
 
-**Source & Health:** LTIMindtree Gladiator training project — source not public · **Live:** Not deployed · **CI:** Not configured · **Docs:** Architecture diagrams included
+**Source & Health:** LTM Gladiator training project — source not public · **Live:** Not deployed · **CI:** Not configured · **Docs:** Architecture diagrams included
 
 </details>
 
@@ -278,9 +287,9 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 ### Professional & Training Experience
 <sub>Technologies and security practices applied in verified internships and training delivery.</sub>
 
-- **Full-Stack Delivery:** `Spring Data JPA`, `Hibernate`, `JWT`, `TypeScript`, `Angular`, `MySQL`
-- **Cloud & App Security:** `VAPT`, `CSPM`, `IAM`, `Nmap`, `Nuclei`, `OWASP Top 10`
-- **Data & Analytics:** `SGX & CME Market Analysis`, `Exposure Modeling`
+- **Full-Stack Delivery:** `Core Java`, `JDBC`, `Spring Boot`, `Spring MVC`, `Spring Data JPA`, `Hibernate`, `Spring Security`, `JWT`, `Angular`, `TypeScript`, `MySQL`
+- **Cloud & App Security:** `VAPT`, `GRC`, `CSPM`, `IAM`, `Nmap`, `Nuclei`, `ISO 27001`, `NIST`, `CIS`, `OWASP Top 10`
+- **Data & Markets:** `Commodities & Fixed Income Execution`, `SGX & CME Market Analysis`
 
 ### Working Knowledge
 <sub>Tools, frameworks, and platforms implemented across academic and personal projects.</sub>
@@ -325,7 +334,7 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 | Initiative | Status | Focus |
 | --- | --- | --- |
 | **GitHub Profile 3.0 Automation** | `Completed` | Configuration-driven profile generator, local SVG analytics, and validated GitHub Actions pipelines. |
-| **Full-Stack Engineering Modules @ LTIMindtree** | `In Progress` | Developing enterprise Spring Boot + Angular workflows during full-stack training. |
+| **Full-Stack Engineering @ LTM** | `In Progress` | Building enterprise Java, Spring Boot, and Angular applications as a full-time Software Engineer. |
 | **Cloud Security & IAM Playbooks** | `In Progress` | Documenting practical VAPT checks, least-privilege IAM patterns, and OWASP hardening baselines. |
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
