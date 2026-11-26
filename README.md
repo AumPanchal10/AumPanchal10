@@ -6,17 +6,13 @@
 <!-- PROFILE:START -->
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Aum Panchal, Software Engineer · Full-Stack · Cloud & Application Security"/>
+<img src="assets/header.svg" width="100%" alt="Aum Panchal — Software Engineer · Full-Stack · Cloud & Application Security"/>
 
 <img src="assets/status.svg" width="430" height="36" alt="Software Engineer @ LTM · Full-Stack"/>
 
-**Software Engineer · Full-Stack · Cloud & Application Security**
-
 [Portfolio](https://aumpanchal.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/aum-panchal-9109a3190/) · [LeetCode](https://leetcode.com/u/aumpanchal/) · [Email](mailto:aumpanchal2004@gmail.com)
 
-<img src="https://img.shields.io/github/followers/AumPanchal10?label=Followers&style=flat&color=84cc16" alt="GitHub followers"/>
-
-[About](#about) · [Timeline](#experience-and-timeline) · [Projects](#featured-projects) · [Skills](#engineering-skills) · [Analytics](#github-analytics) · [Connect](#connect)
+[About](#about) · [Experience](#experience-and-timeline) · [Projects](#featured-projects) · [Skills](#engineering-skills) · [Analytics](#github-analytics) · [Connect](#connect)
 
 </div>
 
@@ -26,19 +22,12 @@
 
 Computer Science and Engineering graduate from VIT-AP (Class of 2026) focused on building dependable, secure, and maintainable software. I work across backend APIs, relational data modeling, and modern frontend interfaces, applying cloud security and IAM practices to make systems resilient by design.
 
-```bash
-$ whoami
-Aum Panchal
-
-$ focus
-Software Engineering | Full-Stack | Cloud & Application Security
-
-$ currently_building
-Spring Boot + Angular full-stack modules & profile automation
-
-$ interests
-Backend Systems | IAM & VAPT | Cloud Security | DevOps
-```
+| Overview | Details |
+| :--- | :--- |
+| **Current Role** | Software Engineer at LTM (Navi Mumbai · Hybrid) |
+| **Engineering Focus** | Full-Stack Web Systems · REST APIs · Cloud & Application Security |
+| **Primary Stack** | Java · Spring Boot · Angular · TypeScript · MySQL |
+| **Security & Cloud** | VAPT · GRC · IAM · OWASP Top 10 · AWS & Google Cloud |
 
 **Current Engineering Focus**
 
@@ -51,53 +40,53 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 ## Experience and Timeline
 
 <details open>
-<summary><b>Software Engineer</b> · LTM <sub><i>Oct 2026 – Present · Full-time · Navi Mumbai, Maharashtra, India · Hybrid</i></sub></summary>
+<summary><b>Software Engineer</b> · LTM — Oct 2026 – Present (Full-time · Navi Mumbai, Maharashtra, India · Hybrid)</summary>
 
 - Full-time Software Engineer building full-stack enterprise applications at LTM.
 
-<img src="https://img.shields.io/badge/Java-3f6212?style=flat-square" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-3f6212?style=flat-square" alt="Spring Boot"/> <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/REST%20APIs-3f6212?style=flat-square" alt="REST APIs"/>
+**Technologies:** Java · Spring Boot · Angular · TypeScript · MySQL · REST APIs
 
 </details>
 
 <details>
-<summary><b>Graduate Engineering Trainee</b> · LTM <sub><i>Jul 2026 – Oct 2026 · Apprenticeship · Bhubaneswar, Odisha, India · On-site</i></sub></summary>
+<summary><b>Graduate Engineering Trainee</b> · LTM — Jul 2026 – Oct 2026 (Apprenticeship · Bhubaneswar, Odisha, India · On-site)</summary>
 
 - Gained hands-on exposure to Core Java, Advanced Java, JDBC, SQL, MySQL, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Spring Security, RESTful APIs, and Angular.
 - Explored frontend development concepts including TypeScript, components, services, routing, data binding, dependency injection, and API integration alongside backend MVC architecture, CRUD operations, database connectivity, JWT-based authentication, and authorization.
 - Led the SafarMate AI Gladiator group project as Team Lead and independently developed Skybooker.
 
-<img src="https://img.shields.io/badge/Core%20Java-3f6212?style=flat-square" alt="Core Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-3f6212?style=flat-square" alt="Spring Boot"/> <img src="https://img.shields.io/badge/Spring%20MVC-3f6212?style=flat-square" alt="Spring MVC"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3f6212?style=flat-square" alt="Spring Data JPA"/> <img src="https://img.shields.io/badge/Hibernate-3f6212?style=flat-square" alt="Hibernate"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/>
+**Technologies:** Core Java · Spring Boot · Spring MVC · Spring Data JPA · Hibernate · Spring Security · Angular · TypeScript · MySQL · JWT
 
 </details>
 
 <details>
-<summary><b>Market Analyst Intern</b> · Axxela <sub><i>Jan 2026 – Jul 2026 · Internship · Mumbai, Maharashtra, India · On-site</i></sub></summary>
+<summary><b>Market Analyst Intern</b> · Axxela — Jan 2026 – Jul 2026 (Internship · Mumbai, Maharashtra, India · On-site)</summary>
 
 - Involved in the execution of trades in commodities and fixed income in International Markets.
 - Worked on growing the Asian commodities market covering products such as Palm Oil, Rubber, and Iron Ore, alongside SGX and CME market data analysis.
 
-<img src="https://img.shields.io/badge/Commodities-3f6212?style=flat-square" alt="Commodities"/> <img src="https://img.shields.io/badge/Fixed%20Income-3f6212?style=flat-square" alt="Fixed Income"/> <img src="https://img.shields.io/badge/International%20Markets-3f6212?style=flat-square" alt="International Markets"/> <img src="https://img.shields.io/badge/SGX-3f6212?style=flat-square" alt="SGX"/> <img src="https://img.shields.io/badge/CME-3f6212?style=flat-square" alt="CME"/>
+**Technologies:** Commodities · Fixed Income · International Markets · SGX · CME
 
 </details>
 
 <details>
-<summary><b>Cloud Security Analyst</b> · Suronex <sub><i>Apr 2025 – Sep 2025 · Internship · Remote</i></sub></summary>
+<summary><b>Cloud Security Analyst</b> · Suronex — Apr 2025 – Sep 2025 (Internship · Remote)</summary>
 
 - Performed vulnerability assessments and penetration testing (VAPT) using Nmap, Nuclei, and custom automation workflows to detect misconfigurations and security loopholes.
 - Contributed to Governance, Risk, and Compliance (GRC) by assisting in control mapping, risk assessments, and compliance documentation aligned with industry frameworks (ISO 27001, NIST, CIS).
 - Designed and documented standardized workflows for scanning and reporting, improving efficiency and accuracy of security processes.
 
-<img src="https://img.shields.io/badge/VAPT-3f6212?style=flat-square" alt="VAPT"/> <img src="https://img.shields.io/badge/GRC-3f6212?style=flat-square" alt="GRC"/> <img src="https://img.shields.io/badge/Nmap-3f6212?style=flat-square" alt="Nmap"/> <img src="https://img.shields.io/badge/Nuclei-3f6212?style=flat-square" alt="Nuclei"/> <img src="https://img.shields.io/badge/ISO%2027001-3f6212?style=flat-square" alt="ISO 27001"/> <img src="https://img.shields.io/badge/NIST-3f6212?style=flat-square" alt="NIST"/> <img src="https://img.shields.io/badge/CIS-3f6212?style=flat-square" alt="CIS"/>
+**Technologies:** VAPT · GRC · Nmap · Nuclei · ISO 27001 · NIST · CIS
 
 </details>
 
 <details>
-<summary><b>B.Tech in Computer Science and Engineering</b> · Vellore Institute of Technology (VIT-AP) <sub><i>Sep 2022 – May 2026 · Academic · Amaravati, Andhra Pradesh</i></sub></summary>
+<summary><b>B.Tech in Computer Science and Engineering</b> · Vellore Institute of Technology (VIT-AP) — Sep 2022 – May 2026 (Academic · Amaravati, Andhra Pradesh)</summary>
 
 - Graduated with CGPA 8.9 / 10 in Computer Science and Engineering.
 - Completed core coursework in Data Structures, Algorithms, Operating Systems, Databases, Computer Networks, and Cybersecurity.
 
-<img src="https://img.shields.io/badge/Java-3f6212?style=flat-square" alt="Java"/> <img src="https://img.shields.io/badge/Python-3f6212?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/SQL-3f6212?style=flat-square" alt="SQL"/> <img src="https://img.shields.io/badge/Computer%20Networks-3f6212?style=flat-square" alt="Computer Networks"/> <img src="https://img.shields.io/badge/Cybersecurity-3f6212?style=flat-square" alt="Cybersecurity"/>
+**Technologies:** Java · Python · SQL · Computer Networks · Cybersecurity
 
 </details>
 
@@ -105,10 +94,10 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 ## Featured Projects
 
-<sub>Expand any project to inspect the problem, individual contribution, architecture diagram, features, and health indicators.</sub>
+Select any project below to view its architecture, individual contributions, and implementation details.
 
 <details open>
-<summary><b>Skybooker</b> · Individual Full-Stack Project <sub><i>Status: Completed</i></sub></summary>
+<summary><b>Skybooker</b> · Individual Full-Stack Project (Completed)</summary>
 
 > AI-assisted flight search, seat selection, and itinerary management platform built independently during LTM training.
 
@@ -125,14 +114,14 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/projects/skybooker/preview.svg" width="100%" alt="Architecture & Booking Flow Preview (conceptual diagram)"/><br><sub>Architecture & Booking Flow Preview (conceptual diagram)</sub></p>
 
-<img src="https://img.shields.io/badge/React-3f6212?style=flat-square" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Node.js-3f6212?style=flat-square" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-3f6212?style=flat-square" alt="Express"/> <img src="https://img.shields.io/badge/Tailwind%20CSS-3f6212?style=flat-square" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Gemini%20API-3f6212?style=flat-square" alt="Gemini API"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/>
+**Tech Stack:** React · TypeScript · Node.js · Express · Tailwind CSS · Gemini API · JWT
 
 **Source & Health:** Training project — private source repository · **Live:** Not deployed · **CI:** Not configured · **Docs:** Internal training docs
 
 </details>
 
 <details>
-<summary><b>SafarMate AI</b> · Team-Based Full-Stack Project · Team Lead <sub><i>Status: Completed</i></sub></summary>
+<summary><b>SafarMate AI</b> · Team-Based Full-Stack Project · Team Lead (Completed)</summary>
 
 > AI-powered travel agency platform supporting natural-language package discovery, bookings, and JWT-secured user flows.
 
@@ -149,14 +138,14 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/projects/safarmate/preview.svg" width="100%" alt="System Architecture & JWT Sequence Preview (conceptual diagram)"/><br><sub>System Architecture & JWT Sequence Preview (conceptual diagram)</sub></p>
 
-<img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/Java%2017-3f6212?style=flat-square" alt="Java 17"/> <img src="https://img.shields.io/badge/Spring%20Boot%203.1.5-3f6212?style=flat-square" alt="Spring Boot 3.1.5"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3f6212?style=flat-square" alt="Spring Data JPA"/> <img src="https://img.shields.io/badge/Hibernate-3f6212?style=flat-square" alt="Hibernate"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/Gemini-3f6212?style=flat-square" alt="Gemini"/>
+**Tech Stack:** Angular · Java 17 · Spring Boot 3.1.5 · Spring Security · JWT · Spring Data JPA · Hibernate · MySQL · Gemini
 
 **Source & Health:** LTM Gladiator training project — source not public · **Live:** Not deployed · **CI:** Not configured · **Docs:** Architecture diagrams included
 
 </details>
 
 <details>
-<summary><b>PhishNet</b> · Cybersecurity & ML Project <sub><i>Status: Completed</i></sub></summary>
+<summary><b>PhishNet</b> · Cybersecurity & ML Project (Completed)</summary>
 
 > Anti-phishing URL analyzer combining lexical heuristics, feature extraction, and scan history inspection.
 
@@ -173,14 +162,14 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/projects/phishnet/preview.svg" width="100%" alt="URL Inspection & Classification Pipeline (conceptual diagram)"/><br><sub>URL Inspection & Classification Pipeline (conceptual diagram)</sub></p>
 
-<img src="https://img.shields.io/badge/React-3f6212?style=flat-square" alt="React"/> <img src="https://img.shields.io/badge/Vite-3f6212?style=flat-square" alt="Vite"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Tailwind%20CSS-3f6212?style=flat-square" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Machine%20Learning-3f6212?style=flat-square" alt="Machine Learning"/>
+**Tech Stack:** React · Vite · TypeScript · Tailwind CSS · Machine Learning
 
 **Source & Health:** [Repository](https://github.com/AumPanchal10/PhishNet) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
 
 <details>
-<summary><b>CryptoWeather Nexus</b> · Real-Time Data & Analytics <sub><i>Status: Completed</i></sub></summary>
+<summary><b>CryptoWeather Nexus</b> · Real-Time Data & Analytics (Completed)</summary>
 
 > Real-time intelligence dashboard unifying cryptocurrency market feeds, global weather data, and news sentiment.
 
@@ -197,14 +186,14 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/projects/cryptoweather/preview.svg" width="100%" alt="Real-Time Stream & State Architecture (conceptual diagram)"/><br><sub>Real-Time Stream & State Architecture (conceptual diagram)</sub></p>
 
-<img src="https://img.shields.io/badge/Next.js-3f6212?style=flat-square" alt="Next.js"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Redux%20Toolkit-3f6212?style=flat-square" alt="Redux Toolkit"/> <img src="https://img.shields.io/badge/WebSockets-3f6212?style=flat-square" alt="WebSockets"/> <img src="https://img.shields.io/badge/Recharts-3f6212?style=flat-square" alt="Recharts"/> <img src="https://img.shields.io/badge/Docker-3f6212?style=flat-square" alt="Docker"/>
+**Tech Stack:** Next.js · TypeScript · Redux Toolkit · WebSockets · Recharts · Docker
 
 **Source & Health:** [Repository](https://github.com/AumPanchal10/CryptoWeather-Nexus) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
 
 <details>
-<summary><b>TotalFit</b> · AI & Wellness Platform <sub><i>Status: Completed</i></sub></summary>
+<summary><b>TotalFit</b> · AI & Wellness Platform (Completed)</summary>
 
 > Athlete wellness platform connecting fitness activity telemetry with recovery indicators and injury-risk insights.
 
@@ -221,14 +210,14 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/projects/totalfit/preview.svg" width="100%" alt="Telemetry & Wellness Insight Architecture (conceptual diagram)"/><br><sub>Telemetry & Wellness Insight Architecture (conceptual diagram)</sub></p>
 
-<img src="https://img.shields.io/badge/Next.js-3f6212?style=flat-square" alt="Next.js"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Supabase-3f6212?style=flat-square" alt="Supabase"/> <img src="https://img.shields.io/badge/Google%20Fit-3f6212?style=flat-square" alt="Google Fit"/> <img src="https://img.shields.io/badge/AI%20Insights-3f6212?style=flat-square" alt="AI Insights"/>
+**Tech Stack:** Next.js · TypeScript · Supabase · Google Fit · AI Insights
 
 **Source & Health:** [Repository](https://github.com/AumPanchal10/Totalfit) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
 
 <details>
-<summary><b>LeakSense</b> · IoT & Environmental Monitoring <sub><i>Status: Completed</i></sub></summary>
+<summary><b>LeakSense</b> · IoT & Environmental Monitoring (Completed)</summary>
 
 > Connected IoT gas-leakage and air-quality (AQI) monitoring system with live sensor telemetry and alerts.
 
@@ -245,14 +234,14 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/projects/leaksense/preview.svg" width="100%" alt="IoT Sensor-to-Mobile Telemetry Flow (conceptual diagram)"/><br><sub>IoT Sensor-to-Mobile Telemetry Flow (conceptual diagram)</sub></p>
 
-<img src="https://img.shields.io/badge/IoT-3f6212?style=flat-square" alt="IoT"/> <img src="https://img.shields.io/badge/Gas%20Sensors-3f6212?style=flat-square" alt="Gas Sensors"/> <img src="https://img.shields.io/badge/AQI-3f6212?style=flat-square" alt="AQI"/> <img src="https://img.shields.io/badge/Firebase-3f6212?style=flat-square" alt="Firebase"/> <img src="https://img.shields.io/badge/ThingSpeak-3f6212?style=flat-square" alt="ThingSpeak"/> <img src="https://img.shields.io/badge/Flutter-3f6212?style=flat-square" alt="Flutter"/>
+**Tech Stack:** IoT · Gas Sensors · AQI · Firebase · ThingSpeak · Flutter
 
 **Source & Health:** [Repository](https://github.com/AumPanchal10/LeakSense) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
 
 <details>
-<summary><b>IndiVerse</b> · Multilingual Real-Time Communication <sub><i>Status: Completed</i></sub></summary>
+<summary><b>IndiVerse</b> · Multilingual Real-Time Communication (Completed)</summary>
 
 > Multilingual desktop chat application supporting real-time messaging with server-side language translation.
 
@@ -266,7 +255,7 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 - Automatic server-side translation to each user's preferred language
 - Desktop GUI built with Python and PyQt5
 
-<img src="https://img.shields.io/badge/Python-3f6212?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/PyQt5-3f6212?style=flat-square" alt="PyQt5"/> <img src="https://img.shields.io/badge/Real-time%20Messaging-3f6212?style=flat-square" alt="Real-time Messaging"/> <img src="https://img.shields.io/badge/Translation-3f6212?style=flat-square" alt="Translation"/>
+**Tech Stack:** Python · PyQt5 · Real-time Messaging · Translation
 
 **Source & Health:** [Repository](https://github.com/AumPanchal10/IndiVerse) · **Live:** Not deployed · **CI:** Not configured · **Docs:** README available
 
@@ -277,42 +266,50 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 ## Engineering Skills
 
 ### Core Skills
-<sub>Technologies I use regularly across full-stack engineering, API design, and problem solving.</sub>
+Technologies I use regularly across full-stack engineering, API design, and problem solving.
 
-- **Languages:** `Java`, `Python`, `TypeScript`, `JavaScript`, `SQL`
-- **Backend & APIs:** `Spring Boot`, `Spring Security`, `REST APIs`, `Node.js`, `Express`
-- **Frontend:** `Angular`, `React`, `Next.js`, `HTML5`, `CSS3`, `Tailwind CSS`
-- **Databases:** `MySQL`, `PostgreSQL`, `MongoDB`
+| Domain | Technologies |
+| :--- | :--- |
+| **Languages** | Java · Python · TypeScript · JavaScript · SQL |
+| **Backend & APIs** | Spring Boot · Spring Security · REST APIs · Node.js · Express |
+| **Frontend** | Angular · React · Next.js · HTML5 · CSS3 · Tailwind CSS |
+| **Databases** | MySQL · PostgreSQL · MongoDB |
 
 ### Professional & Training Experience
-<sub>Technologies and security practices applied in verified internships and training delivery.</sub>
+Technologies and security practices applied in verified internships and training delivery.
 
-- **Full-Stack Delivery:** `Core Java`, `JDBC`, `Spring Boot`, `Spring MVC`, `Spring Data JPA`, `Hibernate`, `Spring Security`, `JWT`, `Angular`, `TypeScript`, `MySQL`
-- **Cloud & App Security:** `VAPT`, `GRC`, `CSPM`, `IAM`, `Nmap`, `Nuclei`, `ISO 27001`, `NIST`, `CIS`, `OWASP Top 10`
-- **Data & Markets:** `Commodities & Fixed Income Execution`, `SGX & CME Market Analysis`
+| Domain | Technologies |
+| :--- | :--- |
+| **Full-Stack Delivery** | Core Java · JDBC · Spring Boot · Spring MVC · Spring Data JPA · Hibernate · Spring Security · JWT · Angular · TypeScript · MySQL |
+| **Cloud & App Security** | VAPT · GRC · CSPM · IAM · Nmap · Nuclei · ISO 27001 · NIST · CIS · OWASP Top 10 |
+| **Data & Markets** | Commodities & Fixed Income Execution · SGX & CME Market Analysis |
 
 ### Working Knowledge
-<sub>Tools, frameworks, and platforms implemented across academic and personal projects.</sub>
+Tools, frameworks, and platforms implemented across academic and personal projects.
 
-- **Web & APIs:** `FastAPI`, `Django`, `Redux Toolkit`, `Recharts`, `WebSockets`, `Bootstrap`
-- **Data & BaaS:** `SQLite`, `Firebase`, `Supabase`, `ThingSpeak`
-- **Cloud & Containers:** `AWS`, `Google Cloud`, `Azure`, `Docker`, `Git`, `GitHub`, `Postman`, `Jira`
-- **Security Tooling:** `Burp Suite`, `Wireshark`, `Metasploit`, `Kali Linux`, `Linux`, `Bash`
+| Domain | Technologies |
+| :--- | :--- |
+| **Web & APIs** | FastAPI · Django · Redux Toolkit · Recharts · WebSockets · Bootstrap |
+| **Data & BaaS** | SQLite · Firebase · Supabase · ThingSpeak |
+| **Cloud & Containers** | AWS · Google Cloud · Azure · Docker · Git · GitHub · Postman · Jira |
+| **Security Tooling** | Burp Suite · Wireshark · Metasploit · Kali Linux · Linux · Bash |
 
 ### Currently Exploring
-<sub>Engineering areas and tooling I am actively deepening.</sub>
+Engineering areas and tooling I am actively deepening.
 
-- **Architecture & DevOps:** `Kubernetes`, `CI/CD Security Hardening`, `Microservice Observability`
-- **Security Engineering:** `SIEM Workflows`, `GRC Automation`, `Ghidra`, `Volatility`
+| Domain | Technologies |
+| :--- | :--- |
+| **Architecture & DevOps** | Kubernetes · CI/CD Security Hardening · Microservice Observability |
+| **Security Engineering** | SIEM Workflows · GRC Automation · Ghidra · Volatility |
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
 ## Education, Certifications & Achievements
 
-- 🎓 **B.Tech in Computer Science and Engineering**, Vellore Institute of Technology (VIT-AP) (Amaravati, Andhra Pradesh) — September 2022 – May 2026 · **CGPA 8.9 / 10**
+- **B.Tech in Computer Science and Engineering**, Vellore Institute of Technology (VIT-AP) (Amaravati, Andhra Pradesh) — September 2022 – May 2026 · **CGPA 8.9 / 10**
 
 <details>
-<summary><b>🏅 Certifications & Verified Achievements</b></summary>
+<summary><b>Certifications & Verified Achievements</b></summary>
 
 **Certifications**
 - AWS Certified Cloud Practitioner — Amazon Web Services (June 2025)
@@ -332,10 +329,10 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 ## Currently Building & Learning
 
 | Initiative | Status | Focus |
-| --- | --- | --- |
-| **GitHub Profile 3.0 Automation** | `Completed` | Configuration-driven profile generator, local SVG analytics, and validated GitHub Actions pipelines. |
-| **Full-Stack Engineering @ LTM** | `In Progress` | Building enterprise Java, Spring Boot, and Angular applications as a full-time Software Engineer. |
-| **Cloud Security & IAM Playbooks** | `In Progress` | Documenting practical VAPT checks, least-privilege IAM patterns, and OWASP hardening baselines. |
+| :--- | :--- | :--- |
+| **Full-Stack Engineering @ LTM** | In Progress | Building enterprise Java, Spring Boot, and Angular applications as a full-time Software Engineer. |
+| **Cloud Security & IAM Playbooks** | In Progress | Documenting practical VAPT checks, least-privilege IAM patterns, and OWASP hardening baselines. |
+| **GitHub Profile 3.0 Automation** | Completed | Configuration-driven profile generator, local SVG analytics, and validated GitHub Actions pipelines. |
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
@@ -355,13 +352,13 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><a href="https://leetcode.com/u/aumpanchal/"><img src="assets/leetcode.svg" alt="LeetCode progress" width="100%"/></a></p>
 
-**Recently updated public repositories**
+### Recently Updated Public Repositories
 
 <!--RECENT_REPOS:START-->
-- [**TutionAds**](https://github.com/AumPanchal10/TutionAds) — Advertisement for Tutions · `TypeScript` · updated 2026-11-12
-- [**CryptoWeather-Nexus**](https://github.com/AumPanchal10/CryptoWeather-Nexus) — 🌐 A modern multi-page dashboard combining real-time weather, cryptocurrency data, and WebSocket-powered alerts — built with Next.js & deployed publicly. · `TypeScript` · updated 2026-11-04
-- [**Cybersecurity-Projects**](https://github.com/AumPanchal10/Cybersecurity-Projects) — A centralized repository for all my cybersecurity projects, covering various aspects of offensive and defensive security, risk management, and threat detection. This repo contains tools, scripts, and research work aimed at enhancing cybersecurity knowledge and practical implementations. · `TypeScript` · updated 2026-11-04
-- [**PhishNet**](https://github.com/AumPanchal10/PhishNet) — Anti Phishing Detection Tool · `TypeScript` · ⭐ 1 · updated 2026-11-04
+- [**TutionAds**](https://github.com/AumPanchal10/TutionAds) — Advertisement for Tutions · TypeScript · updated 2026-11-12
+- [**CryptoWeather-Nexus**](https://github.com/AumPanchal10/CryptoWeather-Nexus) — 🌐 A modern multi-page dashboard combining real-time weather, cryptocurrency data, and WebSocket-powered alerts — built with Next.js & deployed publicly. · TypeScript · updated 2026-11-04
+- [**Cybersecurity-Projects**](https://github.com/AumPanchal10/Cybersecurity-Projects) — A centralized repository for all my cybersecurity projects, covering various aspects of offensive and defensive security, risk management, and threat detection. This repo contains tools, scripts, and research work aimed at enhancing cybersecurity knowledge and practical implementations. · TypeScript · updated 2026-11-04
+- [**PhishNet**](https://github.com/AumPanchal10/PhishNet) — Anti Phishing Detection Tool · TypeScript · ★ 1 · updated 2026-11-04
 - [**SentinelOps**](https://github.com/AumPanchal10/SentinelOps) — SentinelOPS is a Security Information and Event Management (SIEM) and Security Operations Center (SOC) monitoring platform designed to demonstrate real-world threat detection, log analysis, security monitoring, and incident response workflows within a controlled cybersecurity laboratory environment. · updated 2026-06-26
 <!--RECENT_REPOS:END-->
 
@@ -377,5 +374,5 @@ Backend Systems | IAM & VAPT | Cloud Security | DevOps
 
 <p align="center"><img src="assets/sine-wave.svg" width="100%" height="100" alt="Animated sine wave"/></p>
 
-<p align="center"><i>⚡ I like to think of progress as a sine wave: consistent learning, iteration, and steady improvement.</i></p>
+<p align="center"><i>Progress is a sine wave: consistent learning, iteration, and steady improvement.</i></p>
 <!-- PROFILE:END -->

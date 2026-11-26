@@ -11,9 +11,7 @@ from __future__ import annotations
 
 import re
 import sys
-from pathlib import Path
 from typing import Any
-from urllib.parse import quote
 
 from utils import CONFIG_DIR, ROOT_DIR, load_json
 from validate_profile import validate_configs
@@ -23,11 +21,6 @@ PROFILE_START = "<!-- PROFILE:START -->"
 PROFILE_END = "<!-- PROFILE:END -->"
 RECENT_START = "<!--RECENT_REPOS:START-->"
 RECENT_END = "<!--RECENT_REPOS:END-->"
-
-
-def _badge(label: str, bg: str = "3f6212") -> str:
-    encoded = quote(label, safe="")
-    return f'<img src="https://img.shields.io/badge/{encoded}-{bg}?style=flat-square" alt="{label}"/>'
 
 
 def _extract_recent_repos_block(readme_text: str) -> str:
@@ -69,14 +62,14 @@ def render_profile(recent_repos_block: str) -> str:
     if sec.get("hero", True):
         lines.append('<div align="center">')
         lines.append("")
-        lines.append(f'<img src="assets/header.svg" width="100%" alt="{personal["name"]}, {personal["headline"]}"/>')
+        lines.append(
+            f'<img src="assets/header.svg" width="100%" alt="{personal["name"]} — {personal["headline"]}"/>'
+        )
         lines.append("")
         if personal.get("availability", {}).get("show_indicator"):
             status_text = personal["availability"].get("status_text", "Available")
             lines.append(f'<img src="assets/status.svg" width="430" height="36" alt="{status_text}"/>')
             lines.append("")
-        lines.append(f"**{personal['headline']}**")
-        lines.append("")
 
         nav_links: list[str] = []
         if links.get("portfolio"):
@@ -92,11 +85,7 @@ def render_profile(recent_repos_block: str) -> str:
             lines.append("")
 
         lines.append(
-            f'<img src="https://img.shields.io/github/followers/{gh_user}?label=Followers&style=flat&color=84cc16" alt="GitHub followers"/>'
-        )
-        lines.append("")
-        lines.append(
-            "[About](#about) · [Timeline](#experience-and-timeline) · [Projects](#featured-projects) · "
+            "[About](#about) · [Experience](#experience-and-timeline) · [Projects](#featured-projects) · "
             "[Skills](#engineering-skills) · [Analytics](#github-analytics) · [Connect](#connect)"
         )
         lines.append("")
@@ -105,21 +94,19 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append('<p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>')
         lines.append("")
 
-    # 2. Terminal intro + About
+    # 2. About & At a Glance
     if sec.get("about", True):
         lines.append("## About")
         lines.append("")
         lines.append(personal["introduction"])
         lines.append("")
 
-        term = personal.get("terminal_intro", {})
-        if sec.get("terminal_intro", True) and term.get("enabled"):
-            lines.append("```bash")
-            lines.append(f"$ whoami\n{term.get('whoami', personal['name'])}")
-            lines.append(f"\n$ focus\n{term.get('focus', personal['headline'])}")
-            lines.append(f"\n$ currently_building\n{term.get('currently_building', '')}")
-            lines.append(f"\n$ interests\n{term.get('interests', '')}")
-            lines.append("```")
+        glance = personal.get("at_a_glance", [])
+        if glance:
+            lines.append("| Overview | Details |")
+            lines.append("| :--- | :--- |")
+            for row in glance:
+                lines.append(f"| **{row['label']}** | {row['value']} |")
             lines.append("")
 
         focus_items = personal.get("current_focus", [])
@@ -149,8 +136,8 @@ def render_profile(recent_repos_block: str) -> str:
             open_attr = " open" if idx == 0 else ""
             lines.append(f"<details{open_attr}>")
             lines.append(
-                f"<summary><b>{role['role']}</b> · {role['organization']} "
-                f"<sub><i>{role['start_date']} – {role['end_date']} · {badge} · {role.get('location', '')}</i></sub></summary>"
+                f"<summary><b>{role['role']}</b> · {role['organization']} — "
+                f"{role['start_date']} – {role['end_date']} ({badge} · {role.get('location', '')})</summary>"
             )
             lines.append("")
             for h in role.get("highlights", []):
@@ -158,7 +145,7 @@ def render_profile(recent_repos_block: str) -> str:
             techs = role.get("technologies", [])
             if techs:
                 lines.append("")
-                lines.append(" ".join(_badge(t) for t in techs))
+                lines.append(f"**Technologies:** {' · '.join(techs)}")
             lines.append("")
             lines.append("</details>")
             lines.append("")
@@ -170,15 +157,14 @@ def render_profile(recent_repos_block: str) -> str:
     if sec.get("projects", True):
         lines.append("## Featured Projects")
         lines.append("")
-        lines.append("<sub>Expand any project to inspect the problem, individual contribution, architecture diagram, features, and health indicators.</sub>")
+        lines.append("Select any project below to view its architecture, individual contributions, and implementation details.")
         lines.append("")
 
         for idx, proj in enumerate(projects_data.get("projects", [])):
             open_attr = " open" if idx == 0 else ""
             lines.append(f"<details{open_attr}>")
             lines.append(
-                f"<summary><b>{proj['name']}</b> · {proj['category']} "
-                f"<sub><i>Status: {proj['status']}</i></sub></summary>"
+                f"<summary><b>{proj['name']}</b> · {proj['category']} ({proj['status']})</summary>"
             )
             lines.append("")
             lines.append(f"> {proj['one_liner']}")
@@ -200,7 +186,7 @@ def render_profile(recent_repos_block: str) -> str:
                 lines.append("")
 
             if proj.get("stack"):
-                lines.append(" ".join(_badge(t) for t in proj["stack"]))
+                lines.append(f"**Tech Stack:** {' · '.join(proj['stack'])}")
                 lines.append("")
 
             source_part = f"[Repository]({proj['repo_url']})" if proj.get("repo_url") else proj.get("source_note", "Private repository")
@@ -223,11 +209,13 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append("")
         for cat in skills_data.get("categories", []):
             lines.append(f"### {cat['title']}")
-            lines.append(f"<sub>{cat['description']}</sub>")
+            lines.append(cat["description"])
             lines.append("")
+            lines.append("| Domain | Technologies |")
+            lines.append("| :--- | :--- |")
             for grp in cat.get("groups", []):
-                items_str = ", ".join(f"`{item}`" for item in grp["items"])
-                lines.append(f"- **{grp['label']}:** {items_str}")
+                items_str = " · ".join(grp["items"])
+                lines.append(f"| **{grp['label']}** | {items_str} |")
             lines.append("")
 
         lines.append('<p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>')
@@ -239,13 +227,13 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append("")
         for edu in education_data.get("education", []):
             lines.append(
-                f"- 🎓 **{edu['degree']}**, {edu['institution']} ({edu['location']}) — "
+                f"- **{edu['degree']}**, {edu['institution']} ({edu['location']}) — "
                 f"{edu['start_date']} – {edu['end_date']} · **{edu['grade']}**"
             )
         lines.append("")
 
         lines.append("<details>")
-        lines.append("<summary><b>🏅 Certifications & Verified Achievements</b></summary>")
+        lines.append("<summary><b>Certifications & Verified Achievements</b></summary>")
         lines.append("")
         lines.append("**Certifications**")
         for cert in achievements_data.get("certifications", []):
@@ -266,9 +254,9 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append("## Currently Building & Learning")
         lines.append("")
         lines.append("| Initiative | Status | Focus |")
-        lines.append("| --- | --- | --- |")
+        lines.append("| :--- | :--- | :--- |")
         for item in personal["currently_building"]:
-            lines.append(f"| **{item['name']}** | `{item['status']}` | {item['summary']} |")
+            lines.append(f"| **{item['name']}** | {item['status']} | {item['summary']} |")
         lines.append("")
         lines.append('<p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>')
         lines.append("")
@@ -304,7 +292,7 @@ def render_profile(recent_repos_block: str) -> str:
             lines.append("")
 
     if sec.get("recent_repos", True):
-        lines.append("**Recently updated public repositories**")
+        lines.append("### Recently Updated Public Repositories")
         lines.append("")
         lines.append(recent_repos_block)
         lines.append("")
@@ -329,7 +317,7 @@ def render_profile(recent_repos_block: str) -> str:
         lines.append('<p align="center"><img src="assets/sine-wave.svg" width="100%" height="100" alt="Animated sine wave"/></p>')
         lines.append("")
         if personal.get("footer_quote"):
-            lines.append(f'<p align="center"><i>⚡ {personal["footer_quote"]}</i></p>')
+            lines.append(f'<p align="center"><i>{personal["footer_quote"]}</i></p>')
 
     return "\n".join(lines).rstrip() + "\n"
 

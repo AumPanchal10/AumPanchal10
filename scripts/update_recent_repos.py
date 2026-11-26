@@ -36,8 +36,8 @@ def render(repos: list[dict[str, Any]]) -> str:
         if repo.get("fork") or repo.get("archived") or repo["name"].lower() in EXCLUDE_REPOS:
             continue
         desc = (repo.get("description") or "No description yet").strip()
-        lang = f" · `{repo['language']}`" if repo.get("language") else ""
-        stars = f" · ⭐ {repo['stargazers_count']}" if repo.get("stargazers_count") else ""
+        lang = f" · {repo['language']}" if repo.get("language") else ""
+        stars = f" · ★ {repo['stargazers_count']}" if repo.get("stargazers_count") else ""
         pushed = (repo.get("pushed_at") or "")[:10]
         rows.append(
             f"- [**{repo['name']}**]({repo['html_url']}) — {desc}{lang}{stars} · updated {pushed}"
