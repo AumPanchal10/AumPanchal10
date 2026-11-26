@@ -1,396 +1,318 @@
 <!--
-  The repository list under "Recently updated public repositories" is refreshed weekly by
-  .github/workflows/recent-repos.yml (do not remove the RECENT_REPOS marker comments there). The snake (output branch) and assets/stats.svg / assets/leetcode.svg
-  are produced by .github/workflows/snake.yml and stats.yml.
+  Generated automatically from config/*.json via `python scripts/generate_readme.py`.
+  Edit JSON files under config/ instead of editing inside the PROFILE markers.
 -->
 
+<!-- PROFILE:START -->
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Aum Panchal, Software Engineer"/>
+<img src="assets/header.svg" width="100%" alt="Aum Panchal, Software Engineer · Full-Stack · Cloud & Application Security"/>
 
-<a href="https://github.com/AumPanchal10">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=84CC16&center=true&vCenter=true&width=700&height=44&lines=Full-Stack+Developer;Cloud+%26+Application+Security;Market+Analyst+%7C+SGX+%26+CME+data;Spring+Boot+%2B+Angular+%2B+MySQL;Building+secure%2C+maintainable+software" alt="Typing animation: Full-Stack Developer, Cloud and Application Security, Market Analyst"/>
-</a>
+<img src="assets/status.svg" width="430" height="36" alt="Currently building full-stack apps @ LTIMindtree"/>
 
-<img src="assets/status.svg" width="430" height="36" alt="Currently building full-stack apps at LTM"/>
+**Software Engineer · Full-Stack · Cloud & Application Security**
 
-<br><br>
+[Portfolio](https://aumpanchal.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/aum-panchal-9109a3190/) · [LeetCode](https://leetcode.com/u/aumpanchal/) · [Email](mailto:aumpanchal2004@gmail.com)
 
-<a href="https://aumpanchal.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-84cc16?style=for-the-badge&labelColor=1a2e05&color=84cc16&logoColor=000000" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/aum-panchal-9109a3190/"><img src="https://img.shields.io/badge/LinkedIn-84cc16?style=for-the-badge&labelColor=1a2e05&color=84cc16&logoColor=000000" alt="LinkedIn"/></a>
-<a href="https://leetcode.com/u/aumpanchal/"><img src="https://img.shields.io/badge/LeetCode-84cc16?style=for-the-badge&labelColor=1a2e05&color=84cc16&logoColor=000000" alt="LeetCode"/></a>
-<a href="mailto:aumpanchal2004@gmail.com"><img src="https://img.shields.io/badge/Email-84cc16?style=for-the-badge&labelColor=1a2e05&color=84cc16&logoColor=000000" alt="Email"/></a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=AumPanchal10&label=Profile%20views&color=84cc16&style=flat" alt="Profile views"/>
 <img src="https://img.shields.io/github/followers/AumPanchal10?label=Followers&style=flat&color=84cc16" alt="GitHub followers"/>
 
-<br>
-
-<a href="#about-me"><img src="https://img.shields.io/badge/About-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="About"/></a>
-<a href="#experience"><img src="https://img.shields.io/badge/Experience-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Experience"/></a>
-<a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Projects"/></a>
-<a href="#technical-toolkit"><img src="https://img.shields.io/badge/Toolkit-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Toolkit"/></a>
-<a href="#certifications-and-achievements"><img src="https://img.shields.io/badge/Certifications-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Certifications"/></a>
-<a href="#github-activity"><img src="https://img.shields.io/badge/Activity-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Activity"/></a>
-<a href="#connect"><img src="https://img.shields.io/badge/Connect-365314?style=for-the-badge&labelColor=1a2e05&color=365314&logoColor=ffffff" alt="Connect"/></a>
+[About](#about) · [Timeline](#experience-and-timeline) · [Projects](#featured-projects) · [Skills](#engineering-skills) · [Analytics](#github-analytics) · [Connect](#connect)
 
 </div>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
-## About me
+## About
 
-Computer Science and Engineering graduate from VIT-AP (Class of 2026), interested in building useful, secure, and maintainable software. I enjoy working across the stack, from backend services and APIs to frontend experiences, and exploring how cloud and security practices make applications more dependable.
+Computer Science and Engineering graduate from VIT-AP (Class of 2026) focused on building dependable, secure, and maintainable software. I work across backend APIs, relational data modeling, and modern frontend interfaces, applying cloud security and IAM practices to make systems resilient by design.
 
-- 🎓 **Education:** B.Tech in Computer Science and Engineering, Vellore Institute of Technology (VIT-AP), September 2022 – May 2026, CGPA **8.8 / 10**
-- 💼 **Current role:** Software Engineer at **LTM**, Media & Entertainment domain, Paramount client account
-- 🧭 **Project leadership:** Team Lead for SafarMate AI; independently developed Skybooker during LTM training
-- 🔐 **Interests:** Application security, IAM, VAPT, cloud security and full-stack engineering
+```bash
+$ whoami
+Aum Panchal
 
-**Current focus**
+$ focus
+Software Engineering | Full-Stack | Cloud & Application Security
 
-- Building full-stack applications with Java, Spring Boot, Angular and TypeScript
-- Designing REST APIs, authentication flows and relational data models
-- Exploring cloud security, IAM, VAPT and secure application design
+$ currently_building
+Spring Boot + Angular full-stack modules & profile automation
 
-<details>
-<summary><b>🗺️ My journey so far</b> <sub>(click to expand)</sub></summary>
-
-```mermaid
-timeline
-    title Journey so far
-    2022 : Began B.Tech in CSE at VIT-AP
-    2025 : Cloud Security Analyst at Suronex CloudSafe : AWS Certified Cloud Practitioner : Oracle Cloud Foundations and Google Generative AI certified
-    2026 : Market Analyst Intern at Axxela : Graduated from VIT-AP : Full-Stack Trainee at LTIMindtree
+$ interests
+Backend Systems | IAM & VAPT | Cloud Security | DevOps
 ```
 
-</details>
+**Current Engineering Focus**
+
+- Building full-stack applications with Java, Spring Boot, Angular, and TypeScript
+- Designing REST APIs, JWT authentication flows, and relational data models in MySQL
+- Exploring cloud security posture management (CSPM), IAM hardening, and VAPT automation
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
-## Experience
-
-<sub>Click a role to expand or collapse it.</sub>
+## Experience and Timeline
 
 <details open>
-<summary><b>Full-Stack Development Trainee</b> · LTM &nbsp;<sub><i>2026 – Present · Media & Entertainment · Paramount client account</i></sub></summary>
+<summary><b>Full-Stack Development Trainee</b> · LTIMindtree <sub><i>2026 – Present · Professional · Media & Entertainment · Paramount client account</i></sub></summary>
 
-<br>
-
-- Undertook hands-on full-stack training in Java, Spring Boot, Spring Security, REST APIs, Angular, TypeScript and MySQL.
-- Developed backend modules using Spring Data JPA and Hibernate, including JWT-based authentication and RESTful services.
-- Integrated Angular frontend components with Spring Boot APIs and MySQL-backed application workflows.
-- Led the SafarMate Gladiator group project and independently developed Skybooker through incremental delivery milestones.
+- Completed hands-on full-stack training across Java, Spring Boot, Spring Security, REST APIs, Angular, TypeScript, and MySQL.
+- Built backend modules with Spring Data JPA, Hibernate, and JWT authentication, integrated with Angular frontend workflows.
+- Led the SafarMate AI Gladiator group project as Team Lead and independently built Skybooker through incremental delivery milestones.
 
 <img src="https://img.shields.io/badge/Java-3f6212?style=flat-square" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-3f6212?style=flat-square" alt="Spring Boot"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/>
 
 </details>
 
 <details>
-<summary><b>Market Analyst Intern</b> · Axxela Research and Analytics Pvt. Ltd. &nbsp;<sub><i>January 2026 – Present · Mumbai, India</i></sub></summary>
+<summary><b>Market Analyst Intern</b> · Axxela Research and Analytics Pvt. Ltd. <sub><i>2026-01 – Present · Internship · Mumbai, India</i></sub></summary>
 
-<br>
-
-- Analyzed SGX and CME datasets to identify market trends, volatility patterns and spread behaviour.
-- Applied analytical modelling to assess exposure constraints and support trading decisions.
+- Analyzed SGX and CME derivatives datasets to identify market trends, volatility patterns, and spread behavior.
+- Applied analytical modeling to evaluate exposure constraints and support trading decisions.
 
 <img src="https://img.shields.io/badge/Market%20Research-3f6212?style=flat-square" alt="Market Research"/> <img src="https://img.shields.io/badge/Data%20Analysis-3f6212?style=flat-square" alt="Data Analysis"/> <img src="https://img.shields.io/badge/SGX-3f6212?style=flat-square" alt="SGX"/> <img src="https://img.shields.io/badge/CME-3f6212?style=flat-square" alt="CME"/>
 
 </details>
 
 <details>
-<summary><b>Cloud Security Analyst</b> · Suronex CloudSafe Pvt. Ltd. &nbsp;<sub><i>April 2025 – September 2025 · Mumbai, India</i></sub></summary>
+<summary><b>Cloud Security Analyst</b> · Suronex CloudSafe Pvt. Ltd. <sub><i>2025-04 – 2025-09 · Internship · Mumbai, India</i></sub></summary>
 
-<br>
-
-- Executed VAPT using Nmap, Nuclei and custom scripts; identified 20+ critical misconfigurations and exploitable services.
-- Reviewed IAM, access controls and encryption; applied CSPM techniques to reduce excessive permissions by 30%.
-- Supported compliance readiness against ISO 27001, NIST, PCI-DSS, GDPR, SEBI and RBI requirements.
+- Executed VAPT assessments using Nmap, Nuclei, and custom scripts, identifying 20+ critical misconfigurations and exploitable services.
+- Reviewed IAM policies, access controls, and encryption configurations, applying CSPM practices to reduce excessive permissions by 30%.
+- Supported compliance readiness across ISO 27001, NIST, PCI-DSS, GDPR, SEBI, and RBI frameworks.
 
 <img src="https://img.shields.io/badge/VAPT-3f6212?style=flat-square" alt="VAPT"/> <img src="https://img.shields.io/badge/CSPM-3f6212?style=flat-square" alt="CSPM"/> <img src="https://img.shields.io/badge/IAM-3f6212?style=flat-square" alt="IAM"/> <img src="https://img.shields.io/badge/Nmap-3f6212?style=flat-square" alt="Nmap"/> <img src="https://img.shields.io/badge/Nuclei-3f6212?style=flat-square" alt="Nuclei"/>
 
 </details>
 
-<p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
-
-<!-- Tip: add short preview GIFs to assets/previews/ and place <img src="assets/previews/name.gif" width="600"/> inside a project card below. -->
-
-## Featured projects
-
-<sub>Tap a project to see the overview, stack and source.</sub>
-
 <details>
-<summary><b>SafarMate AI</b> &nbsp;·&nbsp; AI-powered travel booking platform &nbsp;<sub><i>Team project · Team Lead · LTIMindtree Gladiator</i></sub></summary>
+<summary><b>B.Tech in Computer Science and Engineering</b> · Vellore Institute of Technology (VIT-AP) <sub><i>2022-09 – 2026-05 · Academic · Amaravati, Andhra Pradesh</i></sub></summary>
 
-<br>
+- Graduated with CGPA 8.9 / 10 in Computer Science and Engineering.
+- Completed core coursework in Data Structures, Algorithms, Operating Systems, Databases, Computer Networks, and Cybersecurity.
 
-Led the group project and contributed to the full-stack solution spanning package discovery, bookings, feedback and authentication.
-
-<img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/Java%2017-3f6212?style=flat-square" alt="Java 17"/> <img src="https://img.shields.io/badge/Spring%20Boot%203.1.5-3f6212?style=flat-square" alt="Spring Boot 3.1.5"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3f6212?style=flat-square" alt="Spring Data JPA"/> <img src="https://img.shields.io/badge/Hibernate-3f6212?style=flat-square" alt="Hibernate"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/Gemini-3f6212?style=flat-square" alt="Gemini"/>
-
-**Source:** Training project, source not public.
-
-<sub>Technical views of the standard Angular, Spring Boot and JWT flows for this stack. Entity and component names are generic.</sub>
-
-**1. System architecture**
-
-```mermaid
-flowchart LR
-    subgraph Client["Angular SPA"]
-        CMP[Components and pages]
-        SVC[Services with HttpClient]
-        INT[HTTP interceptor adds Bearer token]
-        GRD[Route guards]
-    end
-    subgraph Server["Spring Boot 3.1.5 on Java 17"]
-        FLT[JWT auth filter]
-        CTL[REST controllers]
-        SRV[Service layer]
-        REP[Spring Data JPA repositories]
-        AIS[AI search service]
-    end
-    DB[(MySQL)]
-    GEM[Gemini API]
-    GRD -.-> CMP
-    CMP --> SVC --> INT -->|HTTPS REST JSON| FLT
-    FLT --> CTL --> SRV --> REP -->|Hibernate ORM| DB
-    SRV --> AIS -->|prompt| GEM
-```
-
-**2. Authentication with JWT**
-
-```mermaid
-sequenceDiagram
-    actor U as Traveller
-    participant A as Angular app
-    participant AC as Auth controller
-    participant AS as Auth service
-    participant D as MySQL
-    participant F as JWT filter
-    participant R as Resource controller
-    U->>A: Submit login form
-    A->>AC: POST credentials
-    AC->>AS: Authenticate
-    AS->>D: Load user and verify credentials
-    D-->>AS: User record
-    AS-->>AC: Signed JWT
-    AC-->>A: Token in response
-    Note over A: Interceptor attaches the token to later requests
-    A->>F: Request with Bearer token
-    F->>F: Validate signature and expiry
-    F->>R: Set security context and forward
-    R-->>A: Protected data
-```
-
-**3. Package discovery, booking and feedback**
-
-```mermaid
-sequenceDiagram
-    actor U as Traveller
-    participant A as Angular app
-    participant API as Spring Boot API
-    participant D as MySQL
-    U->>A: Browse and select a package
-    A->>API: GET packages
-    API->>D: Query packages
-    D-->>API: Package list
-    API-->>A: Package details
-    U->>A: Confirm booking
-    A->>API: POST booking with JWT
-    API->>API: Validate request and authorise user
-    API->>D: Persist booking
-    D-->>API: Booking saved
-    API-->>A: Confirmation
-    U->>A: Submit feedback
-    A->>API: POST feedback
-    API->>D: Persist feedback
-```
-
-**4. AI search with Gemini**
-
-```mermaid
-flowchart TD
-    Q[Traveller types a natural language query] --> UI[Angular search component]
-    UI -->|REST| CTL[Search controller]
-    CTL --> AIS[AI search service]
-    AIS -->|prompt with the query| GEM[Gemini API]
-    GEM -->|structured preferences| AIS
-    AIS --> REPO[JPA repository query]
-    REPO --> DB[(MySQL)]
-    DB --> RES[Matching packages]
-    RES --> UI
-```
-
-**5. Core data model**
-
-```mermaid
-erDiagram
-    USER ||--o{ BOOKING : makes
-    PACKAGE ||--o{ BOOKING : "is booked in"
-    USER ||--o{ FEEDBACK : writes
-    PACKAGE ||--o{ FEEDBACK : receives
-```
+<img src="https://img.shields.io/badge/Java-3f6212?style=flat-square" alt="Java"/> <img src="https://img.shields.io/badge/Python-3f6212?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/SQL-3f6212?style=flat-square" alt="SQL"/> <img src="https://img.shields.io/badge/Computer%20Networks-3f6212?style=flat-square" alt="Computer Networks"/> <img src="https://img.shields.io/badge/Cybersecurity-3f6212?style=flat-square" alt="Cybersecurity"/>
 
 </details>
-<details>
-<summary><b>Skybooker</b> &nbsp;·&nbsp; AI-assisted flight booking app &nbsp;<sub><i>Individual project · LTIMindtree training</i></sub></summary>
 
-<br>
+<p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
-Built independently, covering flight search, seat selection, bookings, trip management and fare-alert workflows, with chat and itinerary assistance and admin controls.
+## Featured Projects
+
+<sub>Expand any project to inspect the problem, individual contribution, architecture diagram, features, and health indicators.</sub>
+
+<details open>
+<summary><b>Skybooker</b> · Individual Full-Stack Project <sub><i>Status: Completed</i></sub></summary>
+
+> AI-assisted flight search, seat selection, and itinerary management platform built independently during LTIMindtree training.
+
+- **Problem:** Manual flight comparison and multi-leg trip tracking often fragment seat selection, fare alerts, and itinerary updates across disconnected tools.
+- **Individual Contribution:** Independently designed and built end-to-end across frontend UI, REST APIs, JWT authentication, booking workflows, and admin management.
+- **Architecture:** React + TypeScript SPA communicating with an Express/Node.js REST API, JWT role-based guards, and Gemini API itinerary assistant.
+
+**Key Features**
+
+- Flight search with filtering, fare alerts, and interactive seat selection
+- End-to-end booking lifecycle and trip itinerary management
+- AI-assisted travel chat and itinerary planning via Gemini API
+- Role-protected admin dashboard for flight and booking controls
+
+<p align="center"><img src="assets/projects/skybooker/preview.svg" width="100%" alt="Architecture & Booking Flow Preview (conceptual diagram)"/><br><sub>Architecture & Booking Flow Preview (conceptual diagram)</sub></p>
 
 <img src="https://img.shields.io/badge/React-3f6212?style=flat-square" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Node.js-3f6212?style=flat-square" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-3f6212?style=flat-square" alt="Express"/> <img src="https://img.shields.io/badge/Tailwind%20CSS-3f6212?style=flat-square" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Gemini%20API-3f6212?style=flat-square" alt="Gemini API"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/>
 
-**Source:** Training project, source not public.
-
+**Source & Health:** Training project — private source repository · **Live:** Not deployed · **CI:** Not configured · **Docs:** Internal training docs
 
 </details>
+
 <details>
-<summary><b>PhishNet</b> &nbsp;·&nbsp; Anti-phishing URL analyzer &nbsp;<sub><i>Cybersecurity · Machine Learning</i></sub></summary>
+<summary><b>SafarMate AI</b> · Team-Based Full-Stack Project · Team Lead <sub><i>Status: Completed</i></sub></summary>
 
-<br>
+> AI-powered travel agency platform supporting natural-language package discovery, bookings, and JWT-secured user flows.
 
-Combines heuristic checks, URL feature extraction, classification concepts and scan history to help inspect suspicious links.
+- **Problem:** Travellers struggle to map open-ended trip preferences to structured tour packages while agencies need reliable booking and feedback tracking.
+- **Individual Contribution:** Led the LTIMindtree Gladiator team; architected system flows, contributed to Spring Boot REST controllers, JWT security filters, and Angular integration.
+- **Architecture:** Angular SPA with HTTP Bearer interceptor talking to Spring Boot 3.1.5 (Java 17) services, Hibernate/JPA repositories, MySQL, and Gemini API.
+
+**Key Features**
+
+- Natural-language package discovery powered by Gemini structured preference extraction
+- Stateless JWT authentication filter with role-based route guards
+- Package browsing, booking confirmation, and traveller feedback workflows
+- Relational MySQL schema managed via Spring Data JPA and Hibernate
+
+<p align="center"><img src="assets/projects/safarmate/preview.svg" width="100%" alt="System Architecture & JWT Sequence Preview (conceptual diagram)"/><br><sub>System Architecture & JWT Sequence Preview (conceptual diagram)</sub></p>
+
+<img src="https://img.shields.io/badge/Angular-3f6212?style=flat-square" alt="Angular"/> <img src="https://img.shields.io/badge/Java%2017-3f6212?style=flat-square" alt="Java 17"/> <img src="https://img.shields.io/badge/Spring%20Boot%203.1.5-3f6212?style=flat-square" alt="Spring Boot 3.1.5"/> <img src="https://img.shields.io/badge/Spring%20Security-3f6212?style=flat-square" alt="Spring Security"/> <img src="https://img.shields.io/badge/JWT-3f6212?style=flat-square" alt="JWT"/> <img src="https://img.shields.io/badge/Spring%20Data%20JPA-3f6212?style=flat-square" alt="Spring Data JPA"/> <img src="https://img.shields.io/badge/Hibernate-3f6212?style=flat-square" alt="Hibernate"/> <img src="https://img.shields.io/badge/MySQL-3f6212?style=flat-square" alt="MySQL"/> <img src="https://img.shields.io/badge/Gemini-3f6212?style=flat-square" alt="Gemini"/>
+
+**Source & Health:** LTIMindtree Gladiator training project — source not public · **Live:** Not deployed · **CI:** Not configured · **Docs:** Architecture diagrams included
+
+</details>
+
+<details>
+<summary><b>PhishNet</b> · Cybersecurity & ML Project <sub><i>Status: Completed</i></sub></summary>
+
+> Anti-phishing URL analyzer combining lexical heuristics, feature extraction, and scan history inspection.
+
+- **Problem:** Suspicious links frequently disguise deceptive domains and redirect chains that bypass casual visual inspection.
+- **Individual Contribution:** Designed and implemented the URL feature extraction pipeline, classification workflow, and React + TypeScript inspection interface.
+- **Architecture:** React + Vite + TypeScript frontend paired with URL lexical/structural feature extraction and ML classification scoring.
+
+**Key Features**
+
+- Multi-signal URL lexical and structural feature inspection
+- Heuristic + ML classification verdict with risk breakdown
+- Persistent scan history for reviewing previously checked links
+- Responsive cybersecurity analysis dashboard
+
+<p align="center"><img src="assets/projects/phishnet/preview.svg" width="100%" alt="URL Inspection & Classification Pipeline (conceptual diagram)"/><br><sub>URL Inspection & Classification Pipeline (conceptual diagram)</sub></p>
 
 <img src="https://img.shields.io/badge/React-3f6212?style=flat-square" alt="React"/> <img src="https://img.shields.io/badge/Vite-3f6212?style=flat-square" alt="Vite"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Tailwind%20CSS-3f6212?style=flat-square" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Machine%20Learning-3f6212?style=flat-square" alt="Machine Learning"/>
 
-**Source:** [AumPanchal10/PhishNet](https://github.com/AumPanchal10/PhishNet)
-
+**Source & Health:** [Repository](https://github.com/AumPanchal10/PhishNet) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
+
 <details>
-<summary><b>CryptoWeather Nexus</b> &nbsp;·&nbsp; Real-time intelligence dashboard &nbsp;<sub><i>Real-time data · Analytics</i></sub></summary>
+<summary><b>CryptoWeather Nexus</b> · Real-Time Data & Analytics <sub><i>Status: Completed</i></sub></summary>
 
-<br>
+> Real-time intelligence dashboard unifying cryptocurrency market feeds, global weather data, and news sentiment.
 
-Combines cryptocurrency market feeds, global weather information, news sentiment and cross-domain analytics.
+- **Problem:** Tracking live crypto tickers, macro weather events, and market news usually requires switching across isolated dashboards.
+- **Individual Contribution:** Built the Next.js + TypeScript application, Redux Toolkit state layer, WebSocket price stream handling, and Recharts visualizations.
+- **Architecture:** Next.js App Router + Redux Toolkit consuming live WebSocket market streams, weather APIs, and news feeds, containerized with Docker.
+
+**Key Features**
+
+- Live cryptocurrency price streaming over WebSockets
+- Global city weather metrics and historical trend charts
+- Aggregated financial/crypto news feed integration
+- Containerized deployment setup with Docker
+
+<p align="center"><img src="assets/projects/cryptoweather/preview.svg" width="100%" alt="Real-Time Stream & State Architecture (conceptual diagram)"/><br><sub>Real-Time Stream & State Architecture (conceptual diagram)</sub></p>
 
 <img src="https://img.shields.io/badge/Next.js-3f6212?style=flat-square" alt="Next.js"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Redux%20Toolkit-3f6212?style=flat-square" alt="Redux Toolkit"/> <img src="https://img.shields.io/badge/WebSockets-3f6212?style=flat-square" alt="WebSockets"/> <img src="https://img.shields.io/badge/Recharts-3f6212?style=flat-square" alt="Recharts"/> <img src="https://img.shields.io/badge/Docker-3f6212?style=flat-square" alt="Docker"/>
 
-**Source:** [AumPanchal10/CryptoWeather-Nexus](https://github.com/AumPanchal10/CryptoWeather-Nexus)
-
-
-</details>
-<details>
-<summary><b>TotalFit</b> &nbsp;·&nbsp; Athlete wellness platform concept &nbsp;<sub><i>AI · Wellness</i></sub></summary>
-
-<br>
-
-Connects fitness activity data with health insights, recovery indicators and injury-risk awareness.
-
-<img src="https://img.shields.io/badge/Next.js-3f6212?style=flat-square" alt="Next.js"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Supabase-3f6212?style=flat-square" alt="Supabase"/> <img src="https://img.shields.io/badge/Google%20Fit-3f6212?style=flat-square" alt="Google Fit"/> <img src="https://img.shields.io/badge/AI%20insights-3f6212?style=flat-square" alt="AI insights"/>
-
-**Source:** [AumPanchal10/Totalfit](https://github.com/AumPanchal10/Totalfit)
-
+**Source & Health:** [Repository](https://github.com/AumPanchal10/CryptoWeather-Nexus) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
+
 <details>
-<summary><b>LeakSense</b> &nbsp;·&nbsp; IoT air-quality monitoring concept &nbsp;<sub><i>IoT · Environmental monitoring</i></sub></summary>
+<summary><b>TotalFit</b> · AI & Wellness Platform <sub><i>Status: Completed</i></sub></summary>
 
-<br>
+> Athlete wellness platform connecting fitness activity telemetry with recovery indicators and injury-risk insights.
 
-Focused on gas and temperature detection, live readings and connected alerts.
+- **Problem:** Athletes and coaches lack unified visibility linking daily training load with recovery readiness and injury signals.
+- **Individual Contribution:** Architected and built the Next.js + TypeScript frontend and integrated Supabase/Google Fit activity data with AI insight generation.
+- **Architecture:** Next.js + TypeScript web client backed by Supabase/PostgreSQL storage, Google Fit telemetry sync, and AI wellness scoring.
 
-<img src="https://img.shields.io/badge/IoT-3f6212?style=flat-square" alt="IoT"/> <img src="https://img.shields.io/badge/Gas%20sensors-3f6212?style=flat-square" alt="Gas sensors"/> <img src="https://img.shields.io/badge/AQI-3f6212?style=flat-square" alt="AQI"/> <img src="https://img.shields.io/badge/Firebase-3f6212?style=flat-square" alt="Firebase"/> <img src="https://img.shields.io/badge/ThingSpeak-3f6212?style=flat-square" alt="ThingSpeak"/> <img src="https://img.shields.io/badge/Flutter-3f6212?style=flat-square" alt="Flutter"/>
+**Key Features**
 
-**Source:** [AumPanchal10/LeakSense](https://github.com/AumPanchal10/LeakSense)
+- Activity and fitness telemetry ingestion via Google Fit
+- Recovery readiness and workload trend visualizations
+- AI-generated wellness and injury-risk awareness insights
+- Persistent athlete profile and session history
 
+<p align="center"><img src="assets/projects/totalfit/preview.svg" width="100%" alt="Telemetry & Wellness Insight Architecture (conceptual diagram)"/><br><sub>Telemetry & Wellness Insight Architecture (conceptual diagram)</sub></p>
+
+<img src="https://img.shields.io/badge/Next.js-3f6212?style=flat-square" alt="Next.js"/> <img src="https://img.shields.io/badge/TypeScript-3f6212?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Supabase-3f6212?style=flat-square" alt="Supabase"/> <img src="https://img.shields.io/badge/Google%20Fit-3f6212?style=flat-square" alt="Google Fit"/> <img src="https://img.shields.io/badge/AI%20Insights-3f6212?style=flat-square" alt="AI Insights"/>
+
+**Source & Health:** [Repository](https://github.com/AumPanchal10/Totalfit) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
 
 </details>
+
 <details>
-<summary><b>IndiVerse</b> &nbsp;·&nbsp; Multilingual real-time chat &nbsp;<sub><i>Multilingual · Real-time communication</i></sub></summary>
+<summary><b>LeakSense</b> · IoT & Environmental Monitoring <sub><i>Status: Completed</i></sub></summary>
 
-<br>
+> Connected IoT gas-leakage and air-quality (AQI) monitoring system with live sensor telemetry and alerts.
 
-Chat application designed for real-time conversations across language preferences, with server-side message translation.
+- **Problem:** Delayed detection of hazardous gas leaks and indoor air degradation creates safety risks in residential and industrial spaces.
+- **Individual Contribution:** Developed the sensor telemetry pipeline connecting hardware gas/temperature readings to Firebase/ThingSpeak and the Flutter mobile UI.
+- **Architecture:** IoT gas & temperature sensors streaming telemetry to ThingSpeak and Firebase Realtime DB, consumed by a Flutter monitoring app.
 
-<img src="https://img.shields.io/badge/Python-3f6212?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/PyQt5-3f6212?style=flat-square" alt="PyQt5"/> <img src="https://img.shields.io/badge/Real--time%20messaging-3f6212?style=flat-square" alt="Real-time messaging"/> <img src="https://img.shields.io/badge/Translation-3f6212?style=flat-square" alt="Translation"/>
+**Key Features**
 
-**Source:** [AumPanchal10/IndiVerse](https://github.com/AumPanchal10/IndiVerse)
+- Continuous gas concentration, temperature, and AQI monitoring
+- Real-time cloud sync via Firebase and ThingSpeak channels
+- Threshold-based hazard alert notifications
+- Cross-platform Flutter mobile monitoring interface
 
+<p align="center"><img src="assets/projects/leaksense/preview.svg" width="100%" alt="IoT Sensor-to-Mobile Telemetry Flow (conceptual diagram)"/><br><sub>IoT Sensor-to-Mobile Telemetry Flow (conceptual diagram)</sub></p>
+
+<img src="https://img.shields.io/badge/IoT-3f6212?style=flat-square" alt="IoT"/> <img src="https://img.shields.io/badge/Gas%20Sensors-3f6212?style=flat-square" alt="Gas Sensors"/> <img src="https://img.shields.io/badge/AQI-3f6212?style=flat-square" alt="AQI"/> <img src="https://img.shields.io/badge/Firebase-3f6212?style=flat-square" alt="Firebase"/> <img src="https://img.shields.io/badge/ThingSpeak-3f6212?style=flat-square" alt="ThingSpeak"/> <img src="https://img.shields.io/badge/Flutter-3f6212?style=flat-square" alt="Flutter"/>
+
+**Source & Health:** [Repository](https://github.com/AumPanchal10/LeakSense) · **Live:** Not deployed · **CI:** See GitHub repository · **Docs:** README available
+
+</details>
+
+<details>
+<summary><b>IndiVerse</b> · Multilingual Real-Time Communication <sub><i>Status: Completed</i></sub></summary>
+
+> Multilingual desktop chat application supporting real-time messaging with server-side language translation.
+
+- **Problem:** Language barriers slow down real-time collaboration across multilingual user groups.
+- **Individual Contribution:** Built the Python/PyQt5 client interface and real-time socket/translation messaging pipeline.
+- **Architecture:** Python PyQt5 desktop client communicating with a real-time messaging server performing per-recipient message translation.
+
+**Key Features**
+
+- Real-time bidirectional chat messaging across clients
+- Automatic server-side translation to each user's preferred language
+- Desktop GUI built with Python and PyQt5
+
+<img src="https://img.shields.io/badge/Python-3f6212?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/PyQt5-3f6212?style=flat-square" alt="PyQt5"/> <img src="https://img.shields.io/badge/Real-time%20Messaging-3f6212?style=flat-square" alt="Real-time Messaging"/> <img src="https://img.shields.io/badge/Translation-3f6212?style=flat-square" alt="Translation"/>
+
+**Source & Health:** [Repository](https://github.com/AumPanchal10/IndiVerse) · **Live:** Not deployed · **CI:** Not configured · **Docs:** README available
 
 </details>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
-## Technical toolkit
+## Engineering Skills
 
-<sub>Icons link to each tool's homepage.</sub>
+### Core Skills
+<sub>Technologies I use regularly across full-stack engineering, API design, and problem solving.</sub>
 
-**Languages**<br>
-<a href="https://www.java.com" title="Java"><img src="https://skillicons.dev/icons?i=java" width="44" height="44" alt="Java"/></a>
-<a href="https://www.python.org" title="Python"><img src="https://skillicons.dev/icons?i=py" width="44" height="44" alt="Python"/></a>
-<a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript"/></a>
-<a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" width="44" height="44" alt="TypeScript"/></a>
-<a href="https://www.gnu.org/software/bash/" title="Bash"><img src="https://skillicons.dev/icons?i=bash" width="44" height="44" alt="Bash"/></a>
-<a href="https://developer.mozilla.org/docs/Web/HTML" title="HTML5"><img src="https://skillicons.dev/icons?i=html" width="44" height="44" alt="HTML5"/></a>
-<a href="https://developer.mozilla.org/docs/Web/CSS" title="CSS3"><img src="https://skillicons.dev/icons?i=css" width="44" height="44" alt="CSS3"/></a>
+- **Languages:** `Java`, `Python`, `TypeScript`, `JavaScript`, `SQL`
+- **Backend & APIs:** `Spring Boot`, `Spring Security`, `REST APIs`, `Node.js`, `Express`
+- **Frontend:** `Angular`, `React`, `Next.js`, `HTML5`, `CSS3`, `Tailwind CSS`
+- **Databases:** `MySQL`, `PostgreSQL`, `MongoDB`
 
-**Frontend**<br>
-<a href="https://angular.dev" title="Angular"><img src="https://skillicons.dev/icons?i=angular" width="44" height="44" alt="Angular"/></a>
-<a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react" width="44" height="44" alt="React"/></a>
-<a href="https://nextjs.org" title="Next.js"><img src="https://skillicons.dev/icons?i=nextjs" width="44" height="44" alt="Next.js"/></a>
-<a href="https://redux.js.org" title="Redux"><img src="https://skillicons.dev/icons?i=redux" width="44" height="44" alt="Redux"/></a>
-<a href="https://tailwindcss.com" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind" width="44" height="44" alt="Tailwind CSS"/></a>
-<a href="https://getbootstrap.com" title="Bootstrap"><img src="https://skillicons.dev/icons?i=bootstrap" width="44" height="44" alt="Bootstrap"/></a>
+### Professional & Training Experience
+<sub>Technologies and security practices applied in verified internships and training delivery.</sub>
 
-**Backend and APIs**<br>
-<a href="https://spring.io/projects/spring-boot" title="Spring Boot"><img src="https://skillicons.dev/icons?i=spring" width="44" height="44" alt="Spring Boot"/></a>
-<a href="https://nodejs.org" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" width="44" height="44" alt="Node.js"/></a>
-<a href="https://expressjs.com" title="Express"><img src="https://skillicons.dev/icons?i=express" width="44" height="44" alt="Express"/></a>
-<a href="https://fastapi.tiangolo.com" title="FastAPI"><img src="https://skillicons.dev/icons?i=fastapi" width="44" height="44" alt="FastAPI"/></a>
-<a href="https://www.djangoproject.com" title="Django"><img src="https://skillicons.dev/icons?i=django" width="44" height="44" alt="Django"/></a>
+- **Full-Stack Delivery:** `Spring Data JPA`, `Hibernate`, `JWT`, `TypeScript`, `Angular`, `MySQL`
+- **Cloud & App Security:** `VAPT`, `CSPM`, `IAM`, `Nmap`, `Nuclei`, `OWASP Top 10`
+- **Data & Analytics:** `SGX & CME Market Analysis`, `Exposure Modeling`
 
-**Databases**<br>
-<a href="https://www.mysql.com" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql" width="44" height="44" alt="MySQL"/></a>
-<a href="https://www.postgresql.org" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres" width="44" height="44" alt="PostgreSQL"/></a>
-<a href="https://www.mongodb.com" title="MongoDB"><img src="https://skillicons.dev/icons?i=mongodb" width="44" height="44" alt="MongoDB"/></a>
-<a href="https://www.sqlite.org" title="SQLite"><img src="https://skillicons.dev/icons?i=sqlite" width="44" height="44" alt="SQLite"/></a>
-<a href="https://firebase.google.com" title="Firebase"><img src="https://skillicons.dev/icons?i=firebase" width="44" height="44" alt="Firebase"/></a>
-<a href="https://supabase.com" title="Supabase"><img src="https://skillicons.dev/icons?i=supabase" width="44" height="44" alt="Supabase"/></a>
+### Working Knowledge
+<sub>Tools, frameworks, and platforms implemented across academic and personal projects.</sub>
 
-**Cloud and DevOps**<br>
-<a href="https://aws.amazon.com" title="AWS"><img src="https://skillicons.dev/icons?i=aws" width="44" height="44" alt="AWS"/></a>
-<a href="https://cloud.google.com" title="Google Cloud"><img src="https://skillicons.dev/icons?i=gcp" width="44" height="44" alt="Google Cloud"/></a>
-<a href="https://azure.microsoft.com" title="Azure"><img src="https://skillicons.dev/icons?i=azure" width="44" height="44" alt="Azure"/></a>
-<a href="https://www.docker.com" title="Docker"><img src="https://skillicons.dev/icons?i=docker" width="44" height="44" alt="Docker"/></a>
-<a href="https://kubernetes.io" title="Kubernetes"><img src="https://skillicons.dev/icons?i=kubernetes" width="44" height="44" alt="Kubernetes"/></a>
-<a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git"/></a>
-<a href="https://github.com" title="GitHub"><img src="https://skillicons.dev/icons?i=github" width="44" height="44" alt="GitHub"/></a>
-<a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-0052cc?style=flat-square" alt="Jira"/></a>
+- **Web & APIs:** `FastAPI`, `Django`, `Redux Toolkit`, `Recharts`, `WebSockets`, `Bootstrap`
+- **Data & BaaS:** `SQLite`, `Firebase`, `Supabase`, `ThingSpeak`
+- **Cloud & Containers:** `AWS`, `Google Cloud`, `Azure`, `Docker`, `Git`, `GitHub`, `Postman`, `Jira`
+- **Security Tooling:** `Burp Suite`, `Wireshark`, `Metasploit`, `Kali Linux`, `Linux`, `Bash`
 
-**Cybersecurity**<br>
-<img src="https://img.shields.io/badge/VAPT-14532d?style=flat-square" alt="VAPT"/> <img src="https://img.shields.io/badge/IAM-14532d?style=flat-square" alt="IAM"/> <img src="https://img.shields.io/badge/CSPM-14532d?style=flat-square" alt="CSPM"/> <a href="https://owasp.org/www-project-top-ten/"><img src="https://img.shields.io/badge/OWASP%20Top%2010-14532d?style=flat-square" alt="OWASP Top 10"/></a> <img src="https://img.shields.io/badge/SIEM-14532d?style=flat-square" alt="SIEM"/> <img src="https://img.shields.io/badge/IDPS-14532d?style=flat-square" alt="IDPS"/> <img src="https://img.shields.io/badge/GRC-14532d?style=flat-square" alt="GRC"/> <img src="https://img.shields.io/badge/Red%20Teaming-14532d?style=flat-square" alt="Red Teaming"/> <img src="https://img.shields.io/badge/OSINT-14532d?style=flat-square" alt="OSINT"/> <a href="https://jwt.io"><img src="https://img.shields.io/badge/JWT-14532d?style=flat-square" alt="JWT"/></a> <a href="https://portswigger.net/burp"><img src="https://img.shields.io/badge/Burp%20Suite-14532d?style=flat-square" alt="Burp Suite"/></a> <a href="https://nmap.org"><img src="https://img.shields.io/badge/Nmap-14532d?style=flat-square" alt="Nmap"/></a> <a href="https://github.com/projectdiscovery/nuclei"><img src="https://img.shields.io/badge/Nuclei-14532d?style=flat-square" alt="Nuclei"/></a> <a href="https://www.metasploit.com"><img src="https://img.shields.io/badge/Metasploit-14532d?style=flat-square" alt="Metasploit"/></a> <a href="https://www.wireshark.org"><img src="https://img.shields.io/badge/Wireshark-14532d?style=flat-square" alt="Wireshark"/></a> <a href="https://www.kali.org"><img src="https://img.shields.io/badge/Kali%20Linux-14532d?style=flat-square" alt="Kali Linux"/></a> <a href="https://ghidra-sre.org"><img src="https://img.shields.io/badge/Ghidra-14532d?style=flat-square" alt="Ghidra"/></a> <a href="https://volatilityfoundation.org"><img src="https://img.shields.io/badge/Volatility-14532d?style=flat-square" alt="Volatility"/></a>
+### Currently Exploring
+<sub>Engineering areas and tooling I am actively deepening.</sub>
+
+- **Architecture & DevOps:** `Kubernetes`, `CI/CD Security Hardening`, `Microservice Observability`
+- **Security Engineering:** `SIEM Workflows`, `GRC Automation`, `Ghidra`, `Volatility`
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
-## Education
+## Education, Certifications & Achievements
 
-**B.Tech in Computer Science and Engineering**, Vellore Institute of Technology (VIT-AP)<br>
-Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
-
-## Certifications and Achievements
+- 🎓 **B.Tech in Computer Science and Engineering**, Vellore Institute of Technology (VIT-AP) (Amaravati, Andhra Pradesh) — September 2022 – May 2026 · **CGPA 8.9 / 10**
 
 <details>
-<summary><b>🏅 Certifications</b></summary>
+<summary><b>🏅 Certifications & Verified Achievements</b></summary>
 
-<br>
+**Certifications**
+- AWS Certified Cloud Practitioner — Amazon Web Services (June 2025)
+- Google Generative AI — Google Cloud (April 2025)
+- Oracle Cloud Infrastructure Foundations Associate — Oracle University (March 2025)
+- TATA Cybersecurity Analyst — Tata Consultancy Services / Forage
+- Penetration Testing — Udemy
 
-- AWS Certified Cloud Practitioner, Amazon Web Services (June 2025)
-- Oracle Cloud Infrastructure Foundations Associate, Oracle University (March 2025)
-- Google Generative AI, Google Cloud (April 2025)
-- TATA Cybersecurity Analyst
-- Penetration Testing, Udemy
-
-</details>
-
-<details>
-<summary><b>🏆 Achievements</b></summary>
-
-<br>
-
+**Achievements**
 - Solved 200+ data structures and algorithms problems on LeetCode.
 - Placed 6th in a national CTF and bug bounty competition among 100+ teams, leading a 3-member team.
 
@@ -398,7 +320,17 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
 
-## GitHub activity
+## Currently Building & Learning
+
+| Initiative | Status | Focus |
+| --- | --- | --- |
+| **GitHub Profile 3.0 Automation** | `Completed` | Configuration-driven profile generator, local SVG analytics, and validated GitHub Actions pipelines. |
+| **Full-Stack Engineering Modules @ LTIMindtree** | `In Progress` | Developing enterprise Spring Boot + Angular workflows during full-stack training. |
+| **Cloud Security & IAM Playbooks** | `In Progress` | Documenting practical VAPT checks, least-privilege IAM patterns, and OWASP hardening baselines. |
+
+<p align="center"><img src="assets/divider.svg" width="100%" height="20" alt=""/></p>
+
+## GitHub Analytics
 
 <p align="center">
   <picture>
@@ -408,19 +340,11 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
   </picture>
 </p>
 
-<details open>
-<summary><b>📊 Stats overview</b> <sub>(refreshed weekly)</sub></summary>
-
 <p align="center"><img src="assets/stats.svg" alt="GitHub overview stats" width="100%"/></p>
 
-</details>
+<p align="center"><img src="assets/leaderboard.svg" alt="Public repository leaderboard" width="100%"/></p>
 
-<details open>
-<summary><b>🧩 LeetCode</b> <sub>(200+ problems solved)</sub></summary>
-
-<p align="center"><a href="https://leetcode.com/u/aumpanchal/"><img src="assets/leetcode.svg" alt="LeetCode stats" width="100%"/></a></p>
-
-</details>
+<p align="center"><a href="https://leetcode.com/u/aumpanchal/"><img src="assets/leetcode.svg" alt="LeetCode progress" width="100%"/></a></p>
 
 **Recently updated public repositories**
 
@@ -442,8 +366,7 @@ Amaravati, Andhra Pradesh · September 2022 – May 2026 · CGPA **8.9 / 10**
 - **Portfolio:** [aumpanchal.netlify.app](https://aumpanchal.netlify.app/)
 - **LeetCode:** [aumpanchal](https://leetcode.com/u/aumpanchal/)
 
-<p align="center">
-  <img src="assets/sine-wave.svg" width="100%" height="100" alt="Animated sine wave"/>
-</p>
+<p align="center"><img src="assets/sine-wave.svg" width="100%" height="100" alt="Animated sine wave"/></p>
 
-<p align="center"><i>⚡ I like to think of progress as a beautiful sine wave: consistent learning, iteration, and improvement.</i></p>
+<p align="center"><i>⚡ I like to think of progress as a sine wave: consistent learning, iteration, and steady improvement.</i></p>
+<!-- PROFILE:END -->

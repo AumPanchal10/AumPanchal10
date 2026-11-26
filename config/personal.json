@@ -1,0 +1,49 @@
+{
+  "name": "Aum Panchal",
+  "github_username": "AumPanchal10",
+  "leetcode_username": "aumpanchal",
+  "headline": "Software Engineer · Full-Stack · Cloud & Application Security",
+  "location": "India",
+  "availability": {
+    "show_indicator": true,
+    "status_text": "Currently building full-stack apps @ LTIMindtree"
+  },
+  "introduction": "Computer Science and Engineering graduate from VIT-AP (Class of 2026) focused on building dependable, secure, and maintainable software. I work across backend APIs, relational data modeling, and modern frontend interfaces, applying cloud security and IAM practices to make systems resilient by design.",
+  "terminal_intro": {
+    "enabled": true,
+    "whoami": "Aum Panchal",
+    "focus": "Software Engineering | Full-Stack | Cloud & Application Security",
+    "currently_building": "Spring Boot + Angular full-stack modules & profile automation",
+    "interests": "Backend Systems | IAM & VAPT | Cloud Security | DevOps"
+  },
+  "current_focus": [
+    "Building full-stack applications with Java, Spring Boot, Angular, and TypeScript",
+    "Designing REST APIs, JWT authentication flows, and relational data models in MySQL",
+    "Exploring cloud security posture management (CSPM), IAM hardening, and VAPT automation"
+  ],
+  "currently_building": [
+    {
+      "name": "GitHub Profile 3.0 Automation",
+      "status": "Completed",
+      "summary": "Configuration-driven profile generator, local SVG analytics, and validated GitHub Actions pipelines."
+    },
+    {
+      "name": "Full-Stack Engineering Modules @ LTIMindtree",
+      "status": "In Progress",
+      "summary": "Developing enterprise Spring Boot + Angular workflows during full-stack training."
+    },
+    {
+      "name": "Cloud Security & IAM Playbooks",
+      "status": "In Progress",
+      "summary": "Documenting practical VAPT checks, least-privilege IAM patterns, and OWASP hardening baselines."
+    }
+  ],
+  "links": {
+    "portfolio": "https://aumpanchal.netlify.app/",
+    "linkedin": "https://www.linkedin.com/in/aum-panchal-9109a3190/",
+    "github": "https://github.com/AumPanchal10",
+    "leetcode": "https://leetcode.com/u/aumpanchal/",
+    "email": "aumpanchal2004@gmail.com"
+  },
+  "footer_quote": "I like to think of progress as a sine wave: consistent learning, iteration, and steady improvement."
+}

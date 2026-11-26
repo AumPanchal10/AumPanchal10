@@ -1,0 +1,192 @@
+{
+  "projects": [
+    {
+      "id": "skybooker",
+      "name": "Skybooker",
+      "category": "Individual Full-Stack Project",
+      "one_liner": "AI-assisted flight search, seat selection, and itinerary management platform built independently during LTIMindtree training.",
+      "problem": "Manual flight comparison and multi-leg trip tracking often fragment seat selection, fare alerts, and itinerary updates across disconnected tools.",
+      "contribution": "Independently designed and built end-to-end across frontend UI, REST APIs, JWT authentication, booking workflows, and admin management.",
+      "architecture": "React + TypeScript SPA communicating with an Express/Node.js REST API, JWT role-based guards, and Gemini API itinerary assistant.",
+      "features": [
+        "Flight search with filtering, fare alerts, and interactive seat selection",
+        "End-to-end booking lifecycle and trip itinerary management",
+        "AI-assisted travel chat and itinerary planning via Gemini API",
+        "Role-protected admin dashboard for flight and booking controls"
+      ],
+      "stack": ["React", "TypeScript", "Node.js", "Express", "Tailwind CSS", "Gemini API", "JWT"],
+      "preview_image": "assets/projects/skybooker/preview.svg",
+      "preview_caption": "Architecture & Booking Flow Preview (conceptual diagram)",
+      "repo_url": null,
+      "source_note": "Training project — private source repository",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "Not configured",
+        "deployment": "Not configured",
+        "docs": "Internal training docs"
+      }
+    },
+    {
+      "id": "safarmate-ai",
+      "name": "SafarMate AI",
+      "category": "Team-Based Full-Stack Project · Team Lead",
+      "one_liner": "AI-powered travel agency platform supporting natural-language package discovery, bookings, and JWT-secured user flows.",
+      "problem": "Travellers struggle to map open-ended trip preferences to structured tour packages while agencies need reliable booking and feedback tracking.",
+      "contribution": "Led the LTIMindtree Gladiator team; architected system flows, contributed to Spring Boot REST controllers, JWT security filters, and Angular integration.",
+      "architecture": "Angular SPA with HTTP Bearer interceptor talking to Spring Boot 3.1.5 (Java 17) services, Hibernate/JPA repositories, MySQL, and Gemini API.",
+      "features": [
+        "Natural-language package discovery powered by Gemini structured preference extraction",
+        "Stateless JWT authentication filter with role-based route guards",
+        "Package browsing, booking confirmation, and traveller feedback workflows",
+        "Relational MySQL schema managed via Spring Data JPA and Hibernate"
+      ],
+      "stack": ["Angular", "Java 17", "Spring Boot 3.1.5", "Spring Security", "JWT", "Spring Data JPA", "Hibernate", "MySQL", "Gemini"],
+      "preview_image": "assets/projects/safarmate/preview.svg",
+      "preview_caption": "System Architecture & JWT Sequence Preview (conceptual diagram)",
+      "repo_url": null,
+      "source_note": "LTIMindtree Gladiator training project — source not public",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "Not configured",
+        "deployment": "Not configured",
+        "docs": "Architecture diagrams included"
+      }
+    },
+    {
+      "id": "phishnet",
+      "name": "PhishNet",
+      "category": "Cybersecurity & ML Project",
+      "one_liner": "Anti-phishing URL analyzer combining lexical heuristics, feature extraction, and scan history inspection.",
+      "problem": "Suspicious links frequently disguise deceptive domains and redirect chains that bypass casual visual inspection.",
+      "contribution": "Designed and implemented the URL feature extraction pipeline, classification workflow, and React + TypeScript inspection interface.",
+      "architecture": "React + Vite + TypeScript frontend paired with URL lexical/structural feature extraction and ML classification scoring.",
+      "features": [
+        "Multi-signal URL lexical and structural feature inspection",
+        "Heuristic + ML classification verdict with risk breakdown",
+        "Persistent scan history for reviewing previously checked links",
+        "Responsive cybersecurity analysis dashboard"
+      ],
+      "stack": ["React", "Vite", "TypeScript", "Tailwind CSS", "Machine Learning"],
+      "preview_image": "assets/projects/phishnet/preview.svg",
+      "preview_caption": "URL Inspection & Classification Pipeline (conceptual diagram)",
+      "repo_url": "https://github.com/AumPanchal10/PhishNet",
+      "source_note": "Public GitHub repository",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "See GitHub repository",
+        "deployment": "Not configured",
+        "docs": "README available"
+      }
+    },
+    {
+      "id": "cryptoweather-nexus",
+      "name": "CryptoWeather Nexus",
+      "category": "Real-Time Data & Analytics",
+      "one_liner": "Real-time intelligence dashboard unifying cryptocurrency market feeds, global weather data, and news sentiment.",
+      "problem": "Tracking live crypto tickers, macro weather events, and market news usually requires switching across isolated dashboards.",
+      "contribution": "Built the Next.js + TypeScript application, Redux Toolkit state layer, WebSocket price stream handling, and Recharts visualizations.",
+      "architecture": "Next.js App Router + Redux Toolkit consuming live WebSocket market streams, weather APIs, and news feeds, containerized with Docker.",
+      "features": [
+        "Live cryptocurrency price streaming over WebSockets",
+        "Global city weather metrics and historical trend charts",
+        "Aggregated financial/crypto news feed integration",
+        "Containerized deployment setup with Docker"
+      ],
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "WebSockets", "Recharts", "Docker"],
+      "preview_image": "assets/projects/cryptoweather/preview.svg",
+      "preview_caption": "Real-Time Stream & State Architecture (conceptual diagram)",
+      "repo_url": "https://github.com/AumPanchal10/CryptoWeather-Nexus",
+      "source_note": "Public GitHub repository",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "See GitHub repository",
+        "deployment": "Docker-ready",
+        "docs": "README available"
+      }
+    },
+    {
+      "id": "totalfit",
+      "name": "TotalFit",
+      "category": "AI & Wellness Platform",
+      "one_liner": "Athlete wellness platform connecting fitness activity telemetry with recovery indicators and injury-risk insights.",
+      "problem": "Athletes and coaches lack unified visibility linking daily training load with recovery readiness and injury signals.",
+      "contribution": "Architected and built the Next.js + TypeScript frontend and integrated Supabase/Google Fit activity data with AI insight generation.",
+      "architecture": "Next.js + TypeScript web client backed by Supabase/PostgreSQL storage, Google Fit telemetry sync, and AI wellness scoring.",
+      "features": [
+        "Activity and fitness telemetry ingestion via Google Fit",
+        "Recovery readiness and workload trend visualizations",
+        "AI-generated wellness and injury-risk awareness insights",
+        "Persistent athlete profile and session history"
+      ],
+      "stack": ["Next.js", "TypeScript", "Supabase", "Google Fit", "AI Insights"],
+      "preview_image": "assets/projects/totalfit/preview.svg",
+      "preview_caption": "Telemetry & Wellness Insight Architecture (conceptual diagram)",
+      "repo_url": "https://github.com/AumPanchal10/Totalfit",
+      "source_note": "Public GitHub repository",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "See GitHub repository",
+        "deployment": "Not configured",
+        "docs": "README available"
+      }
+    },
+    {
+      "id": "leaksense",
+      "name": "LeakSense",
+      "category": "IoT & Environmental Monitoring",
+      "one_liner": "Connected IoT gas-leakage and air-quality (AQI) monitoring system with live sensor telemetry and alerts.",
+      "problem": "Delayed detection of hazardous gas leaks and indoor air degradation creates safety risks in residential and industrial spaces.",
+      "contribution": "Developed the sensor telemetry pipeline connecting hardware gas/temperature readings to Firebase/ThingSpeak and the Flutter mobile UI.",
+      "architecture": "IoT gas & temperature sensors streaming telemetry to ThingSpeak and Firebase Realtime DB, consumed by a Flutter monitoring app.",
+      "features": [
+        "Continuous gas concentration, temperature, and AQI monitoring",
+        "Real-time cloud sync via Firebase and ThingSpeak channels",
+        "Threshold-based hazard alert notifications",
+        "Cross-platform Flutter mobile monitoring interface"
+      ],
+      "stack": ["IoT", "Gas Sensors", "AQI", "Firebase", "ThingSpeak", "Flutter"],
+      "preview_image": "assets/projects/leaksense/preview.svg",
+      "preview_caption": "IoT Sensor-to-Mobile Telemetry Flow (conceptual diagram)",
+      "repo_url": "https://github.com/AumPanchal10/LeakSense",
+      "source_note": "Public GitHub repository",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "See GitHub repository",
+        "deployment": "Hardware + Mobile",
+        "docs": "README available"
+      }
+    },
+    {
+      "id": "indiverse",
+      "name": "IndiVerse",
+      "category": "Multilingual Real-Time Communication",
+      "one_liner": "Multilingual desktop chat application supporting real-time messaging with server-side language translation.",
+      "problem": "Language barriers slow down real-time collaboration across multilingual user groups.",
+      "contribution": "Built the Python/PyQt5 client interface and real-time socket/translation messaging pipeline.",
+      "architecture": "Python PyQt5 desktop client communicating with a real-time messaging server performing per-recipient message translation.",
+      "features": [
+        "Real-time bidirectional chat messaging across clients",
+        "Automatic server-side translation to each user's preferred language",
+        "Desktop GUI built with Python and PyQt5"
+      ],
+      "stack": ["Python", "PyQt5", "Real-time Messaging", "Translation"],
+      "preview_image": null,
+      "preview_caption": null,
+      "repo_url": "https://github.com/AumPanchal10/IndiVerse",
+      "source_note": "Public GitHub repository",
+      "live_url": null,
+      "status": "Completed",
+      "health": {
+        "ci": "Not configured",
+        "deployment": "Desktop app",
+        "docs": "README available"
+      }
+    }
+  ]
+}

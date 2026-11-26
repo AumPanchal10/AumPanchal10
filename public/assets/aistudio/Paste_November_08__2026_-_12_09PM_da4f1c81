@@ -1,0 +1,970 @@
+# PROJECT: AUM PANCHAL – GITHUB PROFILE 3.0
+## Production-Ready GitHub Profile Transformation, Developer Branding, Analytics and Automation System
+
+### 1. ROLE AND EXPECTATIONS
+
+Act as a principal software engineer, senior Python developer, GitHub Actions specialist, developer-experience architect, UI/UX designer, technical branding consultant and automation engineer.
+
+Your responsibility is to transform my existing GitHub profile repository into a sophisticated, professional, visually engaging and automatically maintained developer profile.
+
+This is an enhancement of an existing implementation, NOT a greenfield project.
+
+Think like an experienced human software engineer. Every design decision, file structure, component, SVG, script, workflow and configuration should have a clear purpose. Avoid unnecessary abstractions, excessive animations, generic AI-generated layouts, repetitive badges and decorative elements that do not improve the experience.
+
+The resulting profile must communicate my professional identity, engineering capabilities, project experience, technical depth and development activity to recruiters, engineering managers and fellow developers.
+
+### 2. EXISTING PROJECT CONTEXT
+
+Repository: AumPanchal10-main
+
+Existing files include:
+
+- README.md
+- .gitignore
+- assets/header.svg
+- assets/divider.svg
+- assets/leetcode.svg
+- assets/sine-wave.svg
+- assets/stats.svg
+- assets/status.svg
+- scripts/generate_stats.py
+- scripts/update_recent_repos.py
+- .github/workflows/metrics.yml
+- .github/workflows/recent-repos.yml
+- .github/workflows/snake.yml
+- .github/workflows/stats.yml
+
+First, thoroughly inspect every existing file, including the complete README, Python scripts, SVG assets, workflow configurations, dependencies, file references and generation logic.
+
+Understand how the existing components interact before changing them.
+
+Preserve working functionality wherever possible. Do not delete existing features simply because you prefer a different implementation.
+
+Identify duplicated functionality, unnecessary workflow executions, unreliable external services, asset-generation conflicts, redundant sections and hardcoded content.
+
+IMPORTANT: Inspect the actual repository rather than assuming every feature described in this prompt is already implemented.
+
+### 3. FIVE CORE DESIGN PRINCIPLES
+
+Build the entire system around these principles:
+
+1. PROFESSIONAL IDENTITY
+   Establish a clear developer identity, current professional experience, engineering focus, relevant skills and career journey.
+
+2. VISUAL STORYTELLING
+   Present projects as genuine software products with screenshots, architecture, features, contributions and technical implementation details.
+
+3. LIVE ANALYTICS
+   Display authentic GitHub and coding activity metrics through automatically refreshed data and locally generated assets.
+
+4. AUTOMATION
+   Make the profile configurable, maintainable and extensible through structured JSON configuration, Python generators, validation and GitHub Actions.
+
+5. HUMAN-DESIGNED AESTHETICS
+   Use a carefully designed visual language, restrained animation, balanced typography, intentional spacing and consistent layouts. Do not make the page look like a generic AI-generated template.
+
+### 4. PROFESSIONAL IDENTITY AND CAREER POSITIONING
+
+Build a professional hero section for Aum Panchal.
+
+Identity:
+- Name: Aum Panchal
+- GitHub: AumPanchal10
+- Education: B.Tech Computer Science and Engineering, VIT-AP.
+- Professional organization: LTIMindtree.
+- Primary interests: Software Engineering, Backend Development, Cloud Engineering, Application Security and Automation.
+
+Use professional information already known from the existing repository and provided context.
+
+Represent LTIMindtree experience accurately. Distinguish training, completed projects, actual employment, current responsibilities and professional designations. Never invent a designation, client, project assignment, technology used at work, promotion, salary or employment milestone.
+
+Create an introduction that communicates what I build, the engineering problems I enjoy solving and the technical areas I work in.
+
+Do not use generic introductions such as:
+"Passionate developer who loves coding."
+
+The introduction must be concise, specific and professionally credible.
+
+Hero section requirements:
+- Existing header artwork, refined rather than discarded.
+- Name and professional headline.
+- Brief engineering-focused introduction.
+- Current professional status, only when verified.
+- Primary technology specialisations.
+- Portfolio, LinkedIn and contact links.
+- A subtle availability indicator only when configured as true.
+
+Use a clear hierarchy and avoid excessive badges.
+
+### 5. CAREER TIMELINE
+
+Create a dedicated experience and milestones section.
+
+Show:
+- Education at VIT-AP.
+- LTIMindtree training and relevant professional milestones.
+- SafarMate AI project leadership.
+- Skybooker individual project development.
+- Relevant internships and certifications.
+- Other meaningful verified milestones.
+
+Timeline requirements:
+- Chronological order.
+- Date ranges.
+- Role and organisation.
+- One or two concise achievement descriptions per milestone.
+- Technologies where relevant.
+- Distinction between academic, professional, internship and independent project experience.
+
+All timeline content must be editable through configuration rather than embedded directly in the README generator.
+
+Do not fabricate dates or accomplishments. Mark uncertain fields for manual completion.
+
+### 6. VISUAL PROJECT SHOWCASE
+
+This is a major priority.
+
+Replace simple repository links with professionally structured project presentations.
+
+Feature these projects:
+
+A. SKYBOOKER
+Category: Individual software development project.
+
+Present:
+- Flight-booking problem and product concept.
+- Booking workflow.
+- Search and itinerary experience.
+- Seat selection, where implemented.
+- Relevant backend and frontend architecture.
+- Technologies actually used.
+- Real application screenshots.
+- Source repository and live demo, if deployed.
+
+Clearly communicate that this was independently developed.
+
+B. SAFARMATE AI TRAVEL AGENCY
+Category: Team-based project.
+My role: Team Lead.
+
+Present:
+- AI-assisted travel planning and agency workflow.
+- Package search and booking architecture.
+- Authentication and JWT security.
+- Backend architecture and major modules.
+- Gemini integration, where implemented.
+- Spring Boot, Java 17, MySQL and other verified technologies.
+- Team leadership and responsibilities.
+- Architecture and authentication diagrams.
+- Real project screenshots.
+- Source repository and demonstration links, if available.
+
+Clearly distinguish features I personally contributed from the overall team implementation.
+
+C. PHISHNET
+Category: Cybersecurity project.
+
+Present:
+- Anti-phishing detection problem.
+- URL analysis and machine-learning workflow.
+- Detection architecture.
+- Model evaluation and dataset metrics.
+- Security considerations.
+- Screenshots, actual metrics and repository link.
+
+The previously reported 95% detection accuracy must not be presented as independently verified unless supported by project evaluation artifacts. Treat it as a configurable historical claim requiring validation.
+
+D. CRYPTOWEATHER NEXUS
+
+Present:
+- Real-time cryptocurrency and weather dashboard.
+- Next.js and TypeScript architecture.
+- Redux Toolkit, Tailwind and WebSocket integration where applicable.
+- Market data visualisation.
+- Weather integration.
+- News integration.
+- Real screenshots and architecture.
+
+E. TOTALFIT
+
+Present:
+- AI-powered athlete management.
+- React/Next.js frontend.
+- Node.js and Express backend.
+- FastAPI AI microservice.
+- PostgreSQL, MongoDB and Google Vertex AI where verified.
+- Analytics, athlete insights and product features.
+
+F. LEAKSENSE
+
+Present:
+- IoT gas monitoring.
+- Environmental and AQI monitoring.
+- Sensor integration.
+- Firebase and ThingSpeak where implemented.
+- IoT data flow and monitoring architecture.
+
+For every project implement a structured presentation containing:
+
+1. Project name.
+2. Category.
+3. One-sentence description.
+4. Problem being addressed.
+5. My individual contribution.
+6. Architecture.
+7. Three or four major features.
+8. Verified technology stack.
+9. Screenshot or preview image.
+10. Source code link.
+11. Live deployment link if available.
+12. Current development status.
+
+Use genuine screenshots and images from the actual applications. Never use stock images or unrelated product screenshots to imply they are screenshots of my projects.
+
+If screenshots are unavailable, create professional architecture diagrams or clearly labelled conceptual preview placeholders.
+
+Organise project assets:
+
+assets/
+  projects/
+    skybooker/
+    safarmate/
+    phishnet/
+    cryptoweather/
+    totalfit/
+    leaksense/
+
+Use compressed PNG, WebP or appropriate SVG assets. Optimise image sizes for GitHub README rendering.
+
+Do not overload the profile with huge images.
+
+### 7. SKILLS AND TECHNOLOGY CATEGORIES
+
+Organise technologies according to actual experience.
+
+Create these categories:
+
+CORE SKILLS
+Technologies I can confidently discuss and demonstrate.
+
+PROFESSIONAL EXPERIENCE
+Technologies used in verified professional work or training projects.
+
+WORKING KNOWLEDGE
+Technologies I have implemented or used but do not claim advanced mastery of.
+
+CURRENTLY EXPLORING
+Technologies and engineering areas I am actively learning.
+
+Potential technology inventory to verify against my repository and resume:
+
+Programming:
+Java, Python, SQL, JavaScript, TypeScript, Bash.
+
+Frontend:
+React, Next.js, HTML, CSS, Tailwind CSS.
+
+Backend:
+Spring Boot, Node.js, Express, Django, FastAPI.
+
+Databases:
+MySQL, PostgreSQL, MongoDB, SQLite.
+
+Cloud and DevOps:
+AWS, Azure, Google Cloud, Docker, Kubernetes.
+
+Security:
+Linux, Kali Linux, Burp Suite, Nmap, Metasploit, Wireshark, SIEM, IAM.
+
+Tools:
+Git, GitHub, Postman and relevant development tools.
+
+Do not display technologies merely because they appear in an old list. Make categories configurable.
+
+Avoid percentage-based proficiency bars. Such numbers are usually subjective and weaken credibility.
+
+Use compact, consistent technology groups.
+
+### 8. CUSTOM GITHUB ENGINEERING ANALYTICS DASHBOARD
+
+Develop an attractive dashboard using locally generated SVG assets.
+
+The analytics should contain genuine data.
+
+A. ACCOUNT OVERVIEW
+
+Include:
+- Public repositories.
+- Public stars received.
+- Public forks.
+- Followers.
+- Original public repository statistics.
+- Relevant contribution metrics.
+
+Avoid mixing repository-owned stars with unrelated fork statistics.
+
+Clearly label the scope of every metric.
+
+B. CONTRIBUTION ANALYTICS
+
+Where available, show:
+- Contributions over the last 12 months.
+- Monthly contribution trends.
+- Contribution consistency.
+- Current streak.
+- Longest streak.
+- Activity by day of week.
+- Recent activity.
+
+Use authoritative GitHub contribution data where available. Distinguish contributions from commit counts.
+
+C. LANGUAGE ANALYTICS
+
+Show:
+- Dominant programming languages.
+- Language distribution based on repository code size.
+- Most frequently used languages.
+- Recent technology trends where meaningful.
+
+Do not treat language percentage as personal proficiency.
+
+D. REPOSITORY LEADERBOARD
+
+Create a dynamic leaderboard using eligible public repositories.
+
+Sort and display meaningful repository metrics:
+- Stars.
+- Forks.
+- Recent activity.
+- Main language.
+- Description.
+- Repository URL.
+
+Exclude the profile repository itself from the featured-project leaderboard unless explicitly configured.
+
+E. RECENT ACTIVITY
+
+Where supported, feature:
+- Recent commits.
+- Recent repositories.
+- Latest releases.
+- Pull requests.
+- Repository updates.
+
+Respect GitHub API limitations.
+
+For private contributions, only use data explicitly made available through authenticated access. Never imply public endpoints expose complete private activity.
+
+F. LIVE CODING STATISTICS
+
+Preserve the existing LeetCode functionality.
+
+Show only metrics that can be retrieved reliably:
+- Total solved.
+- Easy, medium and hard solved.
+- Ranking if available.
+- Relevant progress information.
+
+Use a configurable data provider and graceful fallback when an endpoint is unavailable.
+
+Never generate fake or random statistics to make the dashboard appear active.
+
+### 9. REPOSITORY HEALTH INDICATORS
+
+Add a project health information system.
+
+For featured projects, display applicable indicators:
+
+- GitHub repository link.
+- Build status.
+- Latest release.
+- License.
+- Last updated date.
+- Open issues.
+- Deployment status.
+- Documentation availability.
+
+Only display fields backed by a verified source.
+
+If a project does not use releases, do not display a fabricated release.
+
+If CI is not configured, display "CI not configured" rather than a successful build indicator.
+
+If deployment status is unavailable, omit it or display "Not configured."
+
+Design compact indicators that remain readable in GitHub's rendered Markdown.
+
+### 10. CONFIGURATION-DRIVEN ARCHITECTURE
+
+This is a core requirement.
+
+I should be able to change my professional profile without manually editing long README sections or Python generation code.
+
+Create structured configuration files:
+
+config/
+  personal.json
+  experience.json
+  projects.json
+  skills.json
+  education.json
+  achievements.json
+  social.json
+  analytics.json
+  settings.json
+
+Alternatively, retain a root profile.json if that better fits the existing architecture.
+
+Provide a clear and documented configuration schema.
+
+Configuration must support:
+
+- Personal details.
+- Headline.
+- Introduction.
+- Professional experience.
+- Career milestones.
+- Project details.
+- Project screenshots.
+- Technology categories.
+- Certifications.
+- Achievements.
+- Social links.
+- Analytics preferences.
+- Theme and visual preferences.
+- Dynamic section visibility.
+
+Create examples using the available verified information.
+
+Use empty values or explicit TODO markers for unknown information.
+
+Do not silently replace existing content with empty defaults.
+
+The configuration must be validated before README generation.
+
+Create a validation script that detects:
+- Missing required fields.
+- Invalid JSON.
+- Duplicate project IDs.
+- Invalid project image paths.
+- Broken or malformed links where practical.
+- Invalid date ranges.
+- Missing repository identifiers.
+- Unsupported theme settings.
+- Inconsistent section configuration.
+
+Provide actionable error messages.
+
+### 11. PYTHON GENERATION SYSTEM
+
+Refactor and improve the current generators.
+
+Implement a modular Python architecture.
+
+Suggested files:
+
+scripts/
+  generate_readme.py
+  generate_stats.py
+  update_recent_repos.py
+  generate_project_cards.py
+  generate_career_timeline.py
+  generate_activity.py
+  validate_profile.py
+  providers/
+    github_provider.py
+    leetcode_provider.py
+  generators/
+    hero.py
+    projects.py
+    skills.py
+    experience.py
+    analytics.py
+    footer.py
+  utils/
+    http.py
+    logging_config.py
+    svg.py
+    markdown.py
+
+Avoid overengineering. Retain the current simpler architecture if modularisation does not provide meaningful benefits.
+
+Requirements:
+
+- Python 3.11 or another supported version with explicit configuration.
+- Type hints.
+- Clear function boundaries.
+- Sensible error handling.
+- HTTP timeouts.
+- Retry logic with exponential backoff for transient failures.
+- Request caching where suitable.
+- Logging without leaking tokens.
+- Deterministic generated output.
+- No unnecessary dependencies.
+- No hardcoded access tokens.
+- No network dependency for ordinary README rendering.
+
+README generation must be deterministic: identical inputs should produce identical generated output.
+
+Create a safe generation process that does not corrupt the existing README when generation fails.
+
+Use clear section markers in README.md:
+
+<!-- PROFILE:START -->
+<!-- PROFILE:END -->
+
+Generated sections should be replaceable without damaging manually maintained content outside those boundaries.
+
+If the entire README is generated, document that clearly and preserve the chosen editing workflow.
+
+### 12. SVG DESIGN SYSTEM
+
+Refine the existing assets.
+
+Maintain a consistent palette:
+- Deep charcoal or near-black backgrounds.
+- Restrained green accent.
+- Neutral grey secondary text.
+- High-contrast primary typography.
+- Subtle borders and separators.
+
+Suggested palette:
+
+Background: #0D1117
+Surface: #161B22
+Primary text: #E6EDF3
+Secondary text: #8B949E
+Accent: #84CC16
+Border: #30363D
+
+The existing green visual identity should remain recognisable.
+
+Create polished versions of:
+
+- header.svg
+- stats.svg
+- status.svg
+- leetcode.svg
+- divider.svg
+- sine-wave.svg
+
+Create additional SVG assets where useful:
+
+- career timeline.
+- project feature cards.
+- contribution analytics.
+- language distribution.
+- repository leaderboard.
+- activity graph.
+
+SVG constraints:
+
+- Responsive dimensions.
+- Explicit viewBox.
+- Accessible titles and descriptions where appropriate.
+- No unnecessary filters or large embedded images.
+- No external dependencies unless absolutely necessary.
+- Consistent typography.
+- Readable at common GitHub README widths.
+- Avoid excessive glow, gradients, animated text and bouncing elements.
+- Support graceful static fallback if external resources fail.
+
+Do not depend on SVG features that GitHub sanitises or fails to render reliably.
+
+### 13. VISUAL DESIGN AND USER EXPERIENCE
+
+Design the README as a carefully composed professional landing page.
+
+Recommended section order:
+
+1. Hero and professional identity.
+2. Brief personal introduction.
+3. Professional experience and career timeline.
+4. Featured projects.
+5. Engineering capabilities and skills.
+6. GitHub analytics dashboard.
+7. Coding statistics.
+8. Achievements and certifications.
+9. Current focus and learning.
+10. Professional contact links.
+
+Use the order only as a starting point. Optimise the final structure for readability and recruiter experience.
+
+Visual rules:
+
+- Use restrained animation.
+- Maintain consistent section spacing.
+- Keep project cards visually consistent.
+- Use clear section headings.
+- Minimise redundant badges.
+- Avoid excessive emoji.
+- Avoid enormous technology icon walls.
+- Avoid unnecessary nested tables.
+- Maintain mobile readability.
+- Make the page easy to scan in under one minute.
+- Do not depend on CSS, JavaScript, custom web fonts or interactive browser features that GitHub README rendering does not support.
+
+GitHub README is not a normal website. Use GitHub-supported Markdown, HTML and image rendering capabilities.
+
+### 14. TERMINAL-STYLE INTRODUCTION
+
+Optionally add a small terminal-inspired visual section.
+
+Example:
+
+$ whoami
+Aum Panchal
+
+$ focus
+Software Engineering | Cloud | Application Security
+
+$ currently_building
+Scalable software and engineering automation
+
+$ interests
+Backend Systems | Security | DevOps
+
+This must remain a lightweight visual section.
+
+Do not attempt to implement real browser-side interaction, JavaScript terminals or unsupported UI elements inside README.md.
+
+### 15. CURRENTLY BUILDING AND TECHNICAL LEARNING
+
+Add a maintainable section showing:
+
+- Active projects.
+- Currently learning technologies.
+- Recent engineering milestones.
+- Technical subjects being explored.
+- Upcoming verified project releases.
+
+All information must be configuration-driven.
+
+Use explicit status fields such as:
+- Planning.
+- In Progress.
+- Completed.
+- On Hold.
+
+Do not mark a project completed unless configured accordingly.
+
+### 16. AUTOMATED GITHUB ACTIONS
+
+Audit the existing workflows and consolidate redundant operations.
+
+Create a clear workflow strategy.
+
+Suggested architecture:
+
+.github/workflows/
+  profile-update.yml
+  stats-update.yml
+  snake.yml
+  validate.yml
+
+A. PROFILE UPDATE WORKFLOW
+
+Triggers:
+- Schedule.
+- Manual workflow_dispatch.
+- Relevant configuration changes.
+
+Responsibilities:
+- Validate configuration.
+- Fetch GitHub information.
+- Update recent repositories.
+- Refresh repository information.
+- Generate README content.
+- Validate generated assets.
+- Commit only when there are actual changes.
+
+B. STATISTICS WORKFLOW
+
+Responsibilities:
+- Refresh GitHub analytics.
+- Refresh LeetCode information when available.
+- Regenerate statistics SVGs.
+- Validate assets.
+- Commit only changed files.
+
+C. CONTRIBUTION SNAKE WORKFLOW
+
+Preserve the existing snake functionality.
+
+Ensure its schedule, output paths and permissions are correct.
+
+D. VALIDATION WORKFLOW
+
+Run:
+- Python syntax checks.
+- JSON validation.
+- Profile configuration validation.
+- Generator tests.
+- README generated-section checks.
+- SVG XML validation.
+- YAML validation where practical.
+
+Use GitHub Actions best practices:
+
+- Minimal permissions.
+- Explicit Python version.
+- Pinned action versions where practical.
+- No exposed credentials.
+- Concurrency controls.
+- Timeout limits.
+- Sensible schedule frequency.
+- Manual execution support.
+- Clear workflow names.
+- Useful logs.
+- Avoid unnecessary commits.
+- Avoid workflow loops.
+
+CRITICAL WORKFLOW CONFLICT:
+
+The current repository contains both metrics.yml and stats.yml. Inspect whether they both write assets/leetcode.svg or overlap in other generated outputs.
+
+If multiple workflows write the same asset, consolidate ownership so exactly one workflow generates and commits that asset.
+
+Avoid concurrent writes to README.md and the same SVG files.
+
+If a workflow depends on an API token, document the required GitHub Actions secret by name and never include its actual value.
+
+Use GITHUB_TOKEN where appropriate and explain any required fine-grained token permissions.
+
+### 17. EXTERNAL DATA PROVIDERS AND RELIABILITY
+
+Create reliable data-provider interfaces for:
+
+GitHub:
+- Prefer authenticated GitHub API access when needed.
+- Use GITHUB_TOKEN.
+- Handle rate limits.
+- Respect API pagination.
+- Cache where sensible.
+- Handle missing optional fields.
+- Distinguish public and private information.
+
+LeetCode:
+- Preserve the existing approach if it works.
+- Inspect the current endpoint and its reliability.
+- Avoid undocumented endpoint assumptions without graceful fallback.
+- Do not let LeetCode API failure break the entire README build.
+
+External SVG services:
+- Avoid making the entire profile dependent on external services.
+- Prefer locally generated assets.
+- Provide fallbacks for unavailable services.
+
+A failed provider should never result in fake values or destroyed generated output.
+
+Clearly label data timestamps where relevant.
+
+### 18. SECURITY AND SECRET MANAGEMENT
+
+Treat security as a production requirement.
+
+- No tokens in source code.
+- No credentials in JSON configurations.
+- Never print secrets in logs.
+- Use GitHub Actions secrets.
+- Use least-privilege workflow permissions.
+- Validate external input.
+- Avoid shell injection.
+- Use secure HTTPS requests.
+- Validate external URLs where appropriate.
+- Avoid unsafe SVG generation.
+- Sanitize text before embedding it into generated HTML/SVG.
+- Never expose private repository details in public README output.
+
+Provide a .env.example only for local development if required. Ensure secrets are excluded from version control.
+
+### 19. PERFORMANCE AND MAINTAINABILITY
+
+The system should be efficient.
+
+- Avoid repeatedly calling the same API.
+- Reuse fetched data between generators.
+- Use caching for non-critical information.
+- Limit large SVG output.
+- Compress screenshots.
+- Avoid excessive workflow frequency.
+- Keep dependency count low.
+- Separate data fetching from rendering.
+- Ensure scripts can be run locally.
+- Make failures easy to diagnose.
+
+Provide useful CLI commands, for example:
+
+python scripts/validate_profile.py
+
+python scripts/generate_readme.py
+
+python scripts/generate_stats.py
+
+python scripts/update_recent_repos.py
+
+Document required environment variables.
+
+### 20. TESTING AND ACCEPTANCE CRITERIA
+
+Before declaring completion, verify the entire system.
+
+A. EXISTING FUNCTIONALITY
+
+- Existing README information is preserved.
+- Existing header functionality is preserved or improved.
+- Contribution snake still works.
+- GitHub analytics work where the provider supports them.
+- LeetCode statistics retain graceful fallback.
+- Recent repository listing updates correctly.
+- Existing assets are referenced correctly.
+
+B. CONFIGURATION
+
+- All JSON files parse successfully.
+- Invalid configuration produces clear errors.
+- Changing configuration updates the correct README sections.
+- Unknown values do not silently become fabricated values.
+
+C. GENERATORS
+
+- Python compilation succeeds.
+- README generation succeeds.
+- SVG generation succeeds.
+- Repeated execution is deterministic.
+- API failures do not corrupt output.
+
+D. GITHUB ACTIONS
+
+- YAML files are valid.
+- Permissions are minimal.
+- Workflow triggers are correct.
+- Conflicting asset ownership is eliminated.
+- Manual workflow execution is supported.
+- No unnecessary commits are created.
+
+E. VISUAL QUALITY
+
+- README has no broken image links.
+- Sections render correctly in GitHub Markdown.
+- SVGs remain readable.
+- Project descriptions are clear.
+- The layout is not excessively long.
+- No random or fake activity statistics appear.
+- No generic stock screenshots are presented as genuine project screenshots.
+
+F. FINAL REPOSITORY QUALITY
+
+- Update README documentation.
+- Include configuration documentation.
+- Include workflow documentation.
+- Include a clear installation and execution guide.
+- Ensure .gitignore is appropriate.
+- Ensure no unnecessary files or generated temporary data are committed.
+
+### 21. IMPLEMENTATION METHODOLOGY
+
+Follow these phases.
+
+PHASE 1 — AUDIT
+
+Inspect all repository files and establish the existing architecture, dependencies, functionality and problems.
+
+Create a concise audit report before making architectural changes.
+
+PHASE 2 — DESIGN
+
+Define the visual structure, section hierarchy, configuration schema, data providers, SVG design system and automation architecture.
+
+PHASE 3 — CONFIGURATION
+
+Create or improve the profile configuration and validation system.
+
+Migrate existing README information carefully. Do not lose content.
+
+PHASE 4 — GENERATION ENGINE
+
+Implement the Python generation system and locally generated SVG assets.
+
+PHASE 5 — PROFESSIONAL PROFILE
+
+Upgrade the hero, career timeline, skills, featured projects, achievements, contact information and current-focus sections.
+
+PHASE 6 — LIVE ANALYTICS
+
+Implement reliable GitHub and LeetCode data providers and create the analytics dashboard.
+
+PHASE 7 — AUTOMATION
+
+Refactor GitHub Actions, eliminate overlapping writes, introduce validation and configure safe automated updates.
+
+PHASE 8 — TESTING
+
+Execute all practical checks, fix failures and verify every generated reference.
+
+PHASE 9 — DOCUMENTATION
+
+Document how to modify the profile, update projects, add screenshots, edit career information, configure secrets and run generators.
+
+PHASE 10 — FINAL REVIEW
+
+Compare the final profile against the original repository and report:
+- Files created.
+- Files modified.
+- Existing functionality retained.
+- Functionality improved.
+- New features.
+- Required manual configuration.
+- Required GitHub secrets.
+- Commands to execute.
+- Known limitations.
+- Recommended next steps.
+
+### 22. NON-NEGOTIABLE REQUIREMENTS
+
+1. Do not rebuild the repository from scratch.
+2. Do not remove useful existing functionality.
+3. Do not fabricate achievements or analytics.
+4. Do not invent employment details.
+5. Do not misrepresent team contributions as individual contributions.
+6. Do not use generic AI-generated stock project screenshots.
+7. Do not introduce unnecessary dependencies.
+8. Do not expose secrets.
+9. Do not make the README reliant on JavaScript.
+10. Do not overcomplicate the architecture.
+11. Do not leave placeholder features masquerading as working functionality.
+12. Do not claim tests passed without actually executing them.
+13. Do not write generated assets concurrently from different workflows.
+14. Do not stop after creating a design proposal. Implement the changes.
+15. Preserve content outside generated README markers.
+16. Do not commit or push changes unless explicitly authorised.
+
+### 23. FINAL EXPECTED RESULT
+
+Deliver a fully implemented GitHub Profile 3.0 system that feels like a professionally designed engineering portfolio.
+
+The profile must tell a clear story:
+
+WHO I AM:
+My professional identity and engineering direction.
+
+WHAT I HAVE DONE:
+My work, experience, education and milestones.
+
+WHAT I HAVE BUILT:
+My featured software projects, contributions and technical architecture.
+
+WHAT I KNOW:
+My verified engineering skills and technologies.
+
+HOW I WORK:
+My repository activity, GitHub statistics, automation and development practices.
+
+WHAT I AM BUILDING NEXT:
+My current projects and technical interests.
+
+The result should be visually polished without looking artificial, technically robust without being overengineered, and automated without sacrificing control.
+
+Most importantly, I must be able to maintain the entire profile by editing understandable configuration files rather than manually rewriting a large README.
+
+Begin by inspecting the existing repository, then execute the complete transformation in incremental, verifiable phases.

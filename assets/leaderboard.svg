@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 262" width="800" height="262" role="img" aria-label="Repository Leaderboard" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Repository Leaderboard</title>
+  <rect x="0.5" y="0.5" width="799" height="261" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="28" y="38" font-size="18" font-weight="700" fill="#84CC16">Repository Leaderboard</text>
+  <text x="772" y="38" text-anchor="end" font-size="13" fill="#8B949E">Public non-fork repos · 2026-11-26</text>
+  <line x1="28" y1="54" x2="772" y2="54" stroke="#30363D"/>
+  <rect x="28" y="64" width="744" height="28" rx="6" fill="#161B22"/>
+  <text x="40" y="82" font-size="13" font-weight="700" fill="#E6EDF3">PhishNet</text>
+  <text x="310" y="82" font-size="12" fill="#84CC16">TypeScript</text>
+  <text x="470" y="82" font-size="12" fill="#8B949E">Stars: 1 · Forks: 0</text>
+  <text x="758" y="82" text-anchor="end" font-size="12" fill="#8B949E">Updated 2026-11-04</text>
+  <rect x="28" y="98" width="744" height="28" rx="6" fill="#161B22"/>
+  <text x="40" y="116" font-size="13" font-weight="700" fill="#E6EDF3">TutionAds</text>
+  <text x="310" y="116" font-size="12" fill="#84CC16">TypeScript</text>
+  <text x="470" y="116" font-size="12" fill="#8B949E">Stars: 0 · Forks: 0</text>
+  <text x="758" y="116" text-anchor="end" font-size="12" fill="#8B949E">Updated 2026-11-12</text>
+  <rect x="28" y="132" width="744" height="28" rx="6" fill="#161B22"/>
+  <text x="40" y="150" font-size="13" font-weight="700" fill="#E6EDF3">CryptoWeather-Nexus</text>
+  <text x="310" y="150" font-size="12" fill="#84CC16">TypeScript</text>
+  <text x="470" y="150" font-size="12" fill="#8B949E">Stars: 0 · Forks: 0</text>
+  <text x="758" y="150" text-anchor="end" font-size="12" fill="#8B949E">Updated 2026-11-04</text>
+  <rect x="28" y="166" width="744" height="28" rx="6" fill="#161B22"/>
+  <text x="40" y="184" font-size="13" font-weight="700" fill="#E6EDF3">Cybersecurity-Projects</text>
+  <text x="310" y="184" font-size="12" fill="#84CC16">TypeScript</text>
+  <text x="470" y="184" font-size="12" fill="#8B949E">Stars: 0 · Forks: 0</text>
+  <text x="758" y="184" text-anchor="end" font-size="12" fill="#8B949E">Updated 2026-11-04</text>
+  <rect x="28" y="200" width="744" height="28" rx="6" fill="#161B22"/>
+  <text x="40" y="218" font-size="13" font-weight="700" fill="#E6EDF3">SentinelOps</text>
+  <text x="310" y="218" font-size="12" fill="#84CC16">Multi</text>
+  <text x="470" y="218" font-size="12" fill="#8B949E">Stars: 0 · Forks: 0</text>
+  <text x="758" y="218" text-anchor="end" font-size="12" fill="#8B949E">Updated 2026-06-26</text>
+</svg>

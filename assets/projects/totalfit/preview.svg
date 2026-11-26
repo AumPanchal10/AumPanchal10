@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-label="TotalFit architecture preview">
+  <title>TotalFit — Athlete Wellness Architecture</title>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#84cc16">TOTALFIT · WELLNESS &amp; TELEMETRY PIPELINE</text>
+  <text x="816" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Next.js · Supabase · Google Fit</text>
+  <line x1="24" y1="48" x2="816" y2="48" stroke="#21262d"/>
+
+  <rect x="24" y="72" width="180" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="114" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Google Fit Sync</text>
+  <text x="114" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Daily Activity Telemetry</text>
+  <text x="114" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Training Load Metrics</text>
+
+  <path d="M209 119 L250 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="250,114 259,119 250,124" fill="#84cc16"/>
+
+  <rect x="262" y="72" width="240" height="94" rx="8" fill="#161b22" stroke="#84cc16" stroke-opacity="0.6"/>
+  <text x="382" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Supabase + AI Insights</text>
+  <text x="382" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Recovery Readiness Scoring</text>
+  <text x="382" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Injury-Risk Awareness Signals</text>
+
+  <path d="M507 119 L548 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="548,114 557,119 548,124" fill="#84cc16"/>
+
+  <rect x="560" y="72" width="256" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="688" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Next.js Athlete Dashboard</text>
+  <text x="688" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Personalized Health Trends</text>
+  <text x="688" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Session &amp; Recovery History</text>
+</svg>

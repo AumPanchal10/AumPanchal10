@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-label="PhishNet detection pipeline preview">
+  <title>PhishNet — URL Analysis &amp; Detection Pipeline</title>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#84cc16">PHISHNET · URL INSPECTION PIPELINE</text>
+  <text x="816" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Cybersecurity · Conceptual Diagram</text>
+  <line x1="24" y1="48" x2="816" y2="48" stroke="#21262d"/>
+
+  <rect x="24" y="72" width="175" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="111.5" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Suspicious URL</text>
+  <text x="111.5" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Normalization &amp; Parsing</text>
+  <text x="111.5" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">React + Vite Input</text>
+
+  <path d="M204 119 L236 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="236,114 245,119 236,124" fill="#84cc16"/>
+
+  <rect x="248" y="72" width="185" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="340.5" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Feature Extraction</text>
+  <text x="340.5" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Lexical &amp; Token Signals</text>
+  <text x="340.5" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Domain &amp; Heuristic Checks</text>
+
+  <path d="M438 119 L470 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="470,114 479,119 470,124" fill="#84cc16"/>
+
+  <rect x="482" y="72" width="160" height="94" rx="8" fill="#161b22" stroke="#84cc16" stroke-opacity="0.6"/>
+  <text x="562" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">ML Scoring</text>
+  <text x="562" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Risk Classification</text>
+  <text x="562" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Signal Breakdown</text>
+
+  <path d="M647 119 L679 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="679,114 688,119 679,124" fill="#84cc16"/>
+
+  <rect x="691" y="72" width="125" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="753.5" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Verdict UI</text>
+  <text x="753.5" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Risk Indicators</text>
+  <text x="753.5" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Scan History Log</text>
+</svg>

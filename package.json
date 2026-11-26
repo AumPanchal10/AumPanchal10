@@ -1,0 +1,23 @@
+{
+  "name": "aumpanchal10-github-profile",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aum Panchal's GitHub Profile 3.0 repository with configuration-driven README generation, SVG analytics cards, and local profile preview server.",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "marked": "^15.0.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

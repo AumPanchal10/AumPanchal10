@@ -1,0 +1,33 @@
+{
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "June 2025"
+    },
+    {
+      "name": "Google Generative AI",
+      "issuer": "Google Cloud",
+      "date": "April 2025"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Foundations Associate",
+      "issuer": "Oracle University",
+      "date": "March 2025"
+    },
+    {
+      "name": "TATA Cybersecurity Analyst",
+      "issuer": "Tata Consultancy Services / Forage",
+      "date": null
+    },
+    {
+      "name": "Penetration Testing",
+      "issuer": "Udemy",
+      "date": null
+    }
+  ],
+  "achievements": [
+    "Solved 200+ data structures and algorithms problems on LeetCode.",
+    "Placed 6th in a national CTF and bug bounty competition among 100+ teams, leading a 3-member team."
+  ]
+}

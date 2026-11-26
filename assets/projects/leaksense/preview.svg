@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-label="LeakSense IoT telemetry preview">
+  <title>LeakSense — IoT Environmental Telemetry Flow</title>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#84cc16">LEAKSENSE · IOT SENSOR TELEMETRY FLOW</text>
+  <text x="816" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">IoT · Firebase · ThingSpeak · Flutter</text>
+  <line x1="24" y1="48" x2="816" y2="48" stroke="#21262d"/>
+
+  <rect x="24" y="72" width="185" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="116.5" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Sensor Array</text>
+  <text x="116.5" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Gas &amp; AQI Readings</text>
+  <text x="116.5" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Temperature Probes</text>
+
+  <path d="M214 119 L255 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="255,114 264,119 255,124" fill="#84cc16"/>
+
+  <rect x="267" y="72" width="245" height="94" rx="8" fill="#161b22" stroke="#84cc16" stroke-opacity="0.6"/>
+  <text x="389.5" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Cloud Telemetry</text>
+  <text x="389.5" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Firebase Realtime Sync</text>
+  <text x="389.5" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">ThingSpeak Channel Logs</text>
+
+  <path d="M517 119 L558 119" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="558,114 567,119 558,124" fill="#84cc16"/>
+
+  <rect x="570" y="72" width="246" height="94" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="693" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Flutter Monitor App</text>
+  <text x="693" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Live AQI &amp; Gas Graphs</text>
+  <text x="693" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Threshold Hazard Alerts</text>
+</svg>

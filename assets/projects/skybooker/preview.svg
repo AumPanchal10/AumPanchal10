@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220" role="img" aria-label="Skybooker architecture preview">
+  <title>Skybooker — Architecture &amp; Booking Flow</title>
+  <rect x="0.5" y="0.5" width="839" height="219" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#84cc16">SKYBOOKER · ARCHITECTURE PREVIEW</text>
+  <text x="816" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Individual Project · Conceptual Diagram</text>
+  <line x1="24" y1="48" x2="816" y2="48" stroke="#21262d"/>
+
+  <rect x="24" y="72" width="175" height="106" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="111.5" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">React + TS UI</text>
+  <text x="111.5" y="122" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Flight Search &amp; Filters</text>
+  <text x="111.5" y="140" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Seat Map Selection</text>
+  <text x="111.5" y="158" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Trip &amp; Fare Alerts</text>
+
+  <path d="M204 125 L236 125" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="236,120 245,125 236,130" fill="#84cc16"/>
+
+  <rect x="248" y="72" width="180" height="106" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="338" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Node + Express API</text>
+  <text x="338" y="122" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">JWT Auth &amp; Role Guards</text>
+  <text x="338" y="140" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Booking State Engine</text>
+  <text x="338" y="158" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Admin Controls</text>
+
+  <path d="M433 102 L465 102" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="465,97 474,102 465,107" fill="#84cc16"/>
+  <path d="M433 148 L465 148" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="465,143 474,148 465,153" fill="#38bdf8"/>
+
+  <rect x="477" y="72" width="160" height="52" rx="8" fill="#161b22" stroke="#84cc16" stroke-opacity="0.6"/>
+  <text x="557" y="95" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Gemini Assistant</text>
+  <text x="557" y="113" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">Itinerary &amp; Chat Help</text>
+
+  <rect x="477" y="132" width="160" height="46" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="557" y="159" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">Bookings &amp; Alerts</text>
+
+  <path d="M642 125 L674 125" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="674,120 683,125 674,130" fill="#8b949e"/>
+
+  <rect x="686" y="72" width="130" height="106" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="751" y="108" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Traveller</text>
+  <text x="751" y="130" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Confirmed Ticket</text>
+  <text x="751" y="148" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Live Fare Alerts</text>
+</svg>

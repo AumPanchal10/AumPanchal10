@@ -1,0 +1,31 @@
+{
+  "theme": {
+    "background": "#0D1117",
+    "surface": "#161B22",
+    "primary_text": "#E6EDF3",
+    "secondary_text": "#8B949E",
+    "accent": "#84CC16",
+    "border": "#30363D"
+  },
+  "sections": {
+    "hero": true,
+    "terminal_intro": true,
+    "about": true,
+    "experience": true,
+    "projects": true,
+    "skills": true,
+    "education_and_achievements": true,
+    "currently_building": true,
+    "github_analytics": true,
+    "recent_repos": true,
+    "connect": true
+  },
+  "analytics": {
+    "github_user": "AumPanchal10",
+    "leetcode_user": "aumpanchal",
+    "recent_repos_limit": 5,
+    "leaderboard_limit": 5,
+    "exclude_repos": ["AumPanchal10"],
+    "include_snake": true
+  }
+}

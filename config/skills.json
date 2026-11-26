@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Technologies I use regularly across full-stack engineering, API design, and problem solving.",
+      "groups": [
+        { "label": "Languages", "items": ["Java", "Python", "TypeScript", "JavaScript", "SQL"] },
+        { "label": "Backend & APIs", "items": ["Spring Boot", "Spring Security", "REST APIs", "Node.js", "Express"] },
+        { "label": "Frontend", "items": ["Angular", "React", "Next.js", "HTML5", "CSS3", "Tailwind CSS"] },
+        { "label": "Databases", "items": ["MySQL", "PostgreSQL", "MongoDB"] }
+      ]
+    },
+    {
+      "id": "professional",
+      "title": "Professional & Training Experience",
+      "description": "Technologies and security practices applied in verified internships and training delivery.",
+      "groups": [
+        { "label": "Full-Stack Delivery", "items": ["Spring Data JPA", "Hibernate", "JWT", "TypeScript", "Angular", "MySQL"] },
+        { "label": "Cloud & App Security", "items": ["VAPT", "CSPM", "IAM", "Nmap", "Nuclei", "OWASP Top 10"] },
+        { "label": "Data & Analytics", "items": ["SGX & CME Market Analysis", "Exposure Modeling"] }
+      ]
+    },
+    {
+      "id": "working",
+      "title": "Working Knowledge",
+      "description": "Tools, frameworks, and platforms implemented across academic and personal projects.",
+      "groups": [
+        { "label": "Web & APIs", "items": ["FastAPI", "Django", "Redux Toolkit", "Recharts", "WebSockets", "Bootstrap"] },
+        { "label": "Data & BaaS", "items": ["SQLite", "Firebase", "Supabase", "ThingSpeak"] },
+        { "label": "Cloud & Containers", "items": ["AWS", "Google Cloud", "Azure", "Docker", "Git", "GitHub", "Postman", "Jira"] },
+        { "label": "Security Tooling", "items": ["Burp Suite", "Wireshark", "Metasploit", "Kali Linux", "Linux", "Bash"] }
+      ]
+    },
+    {
+      "id": "exploring",
+      "title": "Currently Exploring",
+      "description": "Engineering areas and tooling I am actively deepening.",
+      "groups": [
+        { "label": "Architecture & DevOps", "items": ["Kubernetes", "CI/CD Security Hardening", "Microservice Observability"] },
+        { "label": "Security Engineering", "items": ["SIEM Workflows", "GRC Automation", "Ghidra", "Volatility"] }
+      ]
+    }
+  ]
+}

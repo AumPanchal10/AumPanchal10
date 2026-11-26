@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-label="CryptoWeather Nexus architecture preview">
+  <title>CryptoWeather Nexus — Real-Time Data Architecture</title>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#84cc16">CRYPTOWEATHER NEXUS · REAL-TIME DATA FLOW</text>
+  <text x="816" y="34" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Next.js · Redux Toolkit · Docker</text>
+  <line x1="24" y1="48" x2="816" y2="48" stroke="#21262d"/>
+
+  <rect x="24" y="70" width="190" height="32" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="119" y="90" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">WebSocket Market Streams</text>
+  <rect x="24" y="108" width="190" height="32" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="119" y="128" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">Global Weather APIs</text>
+  <rect x="24" y="146" width="190" height="32" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="119" y="166" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">News &amp; Sentiment Feeds</text>
+
+  <path d="M220 124 L268 124" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="268,119 277,124 268,129" fill="#84cc16"/>
+
+  <rect x="280" y="72" width="230" height="104" rx="8" fill="#161b22" stroke="#84cc16" stroke-opacity="0.6"/>
+  <text x="395" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Next.js + Redux Toolkit</text>
+  <text x="395" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Normalized State Slices</text>
+  <text x="395" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">TypeScript Strict Contracts</text>
+
+  <path d="M515 124 L563 124" stroke="#84cc16" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="563,119 572,124 563,129" fill="#84cc16"/>
+
+  <rect x="575" y="72" width="241" height="104" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="695.5" y="104" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#e6edf3">Unified Intelligence UI</text>
+  <text x="695.5" y="126" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Recharts Time-Series Plots</text>
+  <text x="695.5" y="144" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Cross-Domain Watchlists</text>
+</svg>
