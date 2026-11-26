@@ -12,7 +12,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=84CC16&center=true&vCenter=true&width=700&height=44&lines=Full-Stack+Developer;Cloud+%26+Application+Security;Market+Analyst+%7C+SGX+%26+CME+data;Spring+Boot+%2B+Angular+%2B+MySQL;Building+secure%2C+maintainable+software" alt="Typing animation: Full-Stack Developer, Cloud and Application Security, Market Analyst"/>
 </a>
 
-<img src="assets/status.svg" width="430" height="36" alt="Currently building full-stack apps at LTIMindtree"/>
+<img src="assets/status.svg" width="430" height="36" alt="Currently building full-stack apps at LTM"/>
 
 <br><br>
 
@@ -45,9 +45,9 @@
 Computer Science and Engineering graduate from VIT-AP (Class of 2026), interested in building useful, secure, and maintainable software. I enjoy working across the stack, from backend services and APIs to frontend experiences, and exploring how cloud and security practices make applications more dependable.
 
 - 🎓 **Education:** B.Tech in Computer Science and Engineering, Vellore Institute of Technology (VIT-AP), September 2022 – May 2026, CGPA **8.8 / 10**
-- 💼 **Current role:** Full-Stack Development Trainee at **LTIMindtree**, Media & Entertainment domain, Paramount client account
-- 🧭 **Project leadership:** Team Lead for SafarMate AI; independently developed Skybooker during LTIMindtree training
-- 🔐 **Interests:** application security, IAM, VAPT, cloud security and full-stack engineering
+- 💼 **Current role:** Software Engineer at **LTM**, Media & Entertainment domain, Paramount client account
+- 🧭 **Project leadership:** Team Lead for SafarMate AI; independently developed Skybooker during LTM training
+- 🔐 **Interests:** Application security, IAM, VAPT, cloud security and full-stack engineering
 
 **Current focus**
 
@@ -75,7 +75,7 @@ timeline
 <sub>Click a role to expand or collapse it.</sub>
 
 <details open>
-<summary><b>Full-Stack Development Trainee</b> · LTIMindtree &nbsp;<sub><i>2026 – Present · Media & Entertainment · Paramount client account</i></sub></summary>
+<summary><b>Full-Stack Development Trainee</b> · LTM &nbsp;<sub><i>2026 – Present · Media & Entertainment · Paramount client account</i></sub></summary>
 
 <br>
 
